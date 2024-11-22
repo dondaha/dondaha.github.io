@@ -11,6 +11,9 @@ importers:
       hexo:
         specifier: ^7.3.0
         version: 7.3.0(chokidar@3.6.0)
+      hexo-deployer-git:
+        specifier: ^4.0.0
+        version: 4.0.0(chokidar@3.6.0)
       hexo-filter-date-from-git:
         specifier: ^0.2.0
         version: 0.2.0
@@ -45,8 +48,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       hexo-theme-kratos-rebirth:
-        specifier: 3.0.0-alpha.1
-        version: 3.0.0-alpha.1
+        specifier: 3.0.0-dev.9
+        version: 3.0.0-dev.9
 
 packages:
 
@@ -385,6 +388,10 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
+  hexo-deployer-git@4.0.0:
+    resolution: {integrity: sha512-28t1Q+4taB/UaBAP52W3mD/wcCwa2y2zBieUfBJFBZudbmVgiKJB5YedYILeyI5QByaUKAOwoupmdTbocdQ+CQ==}
+    engines: {node: '>=14'}
+
   hexo-filter-date-from-git@0.2.0:
     resolution: {integrity: sha512-wfy12bhJPpTpKrjq8+mlk3m78TSkHgtwQWF1XzB9M4fF3ttVy4cNpCnQMbvxm+QViLf+4/DRxaWwSGMLXrZdtw==}
 
@@ -448,8 +455,8 @@ packages:
     resolution: {integrity: sha512-u4s0ty9Aew6jV+a9oMrXBwhrRpUQ0U8PWM/88a5aHgDru58VY81mVrxOFxs788NAsWQ8OvsJtF5m7mnXoRnSIA==}
     engines: {node: '>=12.13.0'}
 
-  hexo-theme-kratos-rebirth@3.0.0-alpha.1:
-    resolution: {integrity: sha512-oo25eddXpoayXebXOgIjnz/zksWKUwZLGgdpz18Jp0Tkk/10/ZxYrJsczjR3L0F3mY8C8iz94AWaND8ejiox1A==}
+  hexo-theme-kratos-rebirth@3.0.0-dev.9:
+    resolution: {integrity: sha512-PdR9tKr+swxBFtqPz9xdx3yKfOWOSVujI4VV/wVzqQFVYOPy1skFYAcQkzwX1uWLWY37Ht3DcNPMr2SWhccmlg==}
 
   hexo-util@2.7.0:
     resolution: {integrity: sha512-hQM3h34nhDg0bSe/Tg1lnpODvNkz7h2u0+lZGzlKL0Oufp+5KCAEUX9wal7/xC7ax3/cwEn8IuoU75kNpZLpJQ==}
@@ -569,6 +576,10 @@ packages:
 
   lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
+
+  luxon@3.5.0:
+    resolution: {integrity: sha512-rh+Zjr6DNfUYR3bPwJEnuwDdqMbxZW7LOQfUN4B54+Cl+0o5zaU9RJ6bcidfDtC1cWCZXQ+nvX8bf6bAji37QQ==}
+    engines: {node: '>=12'}
 
   marked@4.3.0:
     resolution: {integrity: sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==}
@@ -1266,6 +1277,17 @@ snapshots:
       resolve: 1.22.8
       tildify: 2.0.0
 
+  hexo-deployer-git@4.0.0(chokidar@3.6.0):
+    dependencies:
+      bluebird: 3.7.2
+      hexo-fs: 4.1.3
+      hexo-util: 2.7.0
+      luxon: 3.5.0
+      nunjucks: 3.2.4(chokidar@3.6.0)
+      picocolors: 1.0.1
+    transitivePeerDependencies:
+      - chokidar
+
   hexo-filter-date-from-git@0.2.0:
     dependencies:
       moment-timezone: 0.5.45
@@ -1358,7 +1380,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  hexo-theme-kratos-rebirth@3.0.0-alpha.1: {}
+  hexo-theme-kratos-rebirth@3.0.0-dev.9: {}
 
   hexo-util@2.7.0:
     dependencies:
@@ -1546,6 +1568,8 @@ snapshots:
   lower-case@2.0.2:
     dependencies:
       tslib: 2.6.3
+
+  luxon@3.5.0: {}
 
   marked@4.3.0: {}
 
