@@ -17,6 +17,7 @@
     "version": "7.3.0"
   },
   "dependencies": {
+    "gitalk": "^1.8.0",
     "hexo": "^7.3.0",
     "hexo-deployer-git": "^4.0.0",
     "hexo-filter-date-from-git": "^0.2.0",
