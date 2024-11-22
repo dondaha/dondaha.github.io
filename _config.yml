@@ -3,12 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 'Kratos : Rebirth'
-subtitle: '一个可爱而现代的 Hexo 主题'
-description: '欢迎使用这个主题，希望能给您带来美好的体验。'
+title: "dondaha's blog"
+subtitle: 'dondaha的博客'
+description: 'a SJTU-AUer的技术、生活的记录空间'
 keywords: 
 - hexo
-- theme
+- blog
+- dondaha
+- SJTU
 - kratos-rebirth
 author: All contributors
 language: zh
@@ -16,7 +18,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://krt.moe
+url: https://dondaha.github.io
 permalink: posts/:title/
 permalink_defaults:
 pretty_urls:
@@ -121,4 +123,6 @@ sitemap:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: git@github.com:dondaha/dondaha.github.io.git
+  branch: gh-pages
