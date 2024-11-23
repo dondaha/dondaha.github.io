@@ -15,11 +15,11 @@
           id: path,
           path: path,
       }, {
-        clientID: 'GitHub Application Client ID',
-        clientSecret: 'GitHub Application Client Secret',
-        repo: "wiki",
-        owner: "kratos-rebirth",
-        admin: ["Candinya"],
+        clientID: 'Ov23liGnEdBwPWVcjrhX',
+        clientSecret: '1c107940a999da999a9db81ad0df0565c2a7c6f9',
+        repo: "dondaha.github.io",
+        owner: "dondaha",
+        admin: ["dondaha"],
         distractionFreeMode: false,
       }));
 

@@ -37,4 +37,4 @@ tags: [装机,硬件]
 
 ## 组装过程
 
-![eat](/posts/my-itx-pc/f5be912788b614339f94d17097b9ac4.jpg)
+![eat](/images/f5be912788b614339f94d17097b9ac4.jpg)
