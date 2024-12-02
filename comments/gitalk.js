@@ -16,7 +16,7 @@
           path: path,
       }, {
         clientID: 'Ov23liGnEdBwPWVcjrhX',
-        clientSecret: '1c107940a999da999a9db81ad0df0565c2a7c6f9',
+        clientSecret: '2b49aecf6954dd58dd7018d417f8a7155105c8b0',
         repo: "dondaha.github.io",
         owner: "dondaha",
         admin: ["dondaha"],
