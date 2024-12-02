@@ -51,6 +51,7 @@ footer:
     author:
       homepage: "https://github.com/dondaha"
     additional: # 托管信息等
+      # - - 您是本站的第 <span data-path="/index.html" class="waline-pageview-count"></span> 位访客
       - - 由 <a href="https://hexo.io" target="_blank" rel="nofollow">Hexo</a> 强力驱动
         - 在 <a href="https://github.io" target="_blank">Github Pages</a> 暖心托管
       - - <a href="https://icp.gov.moe/?keyword=20245090" target="_blank">萌ICP备20245090号</a>
@@ -87,10 +88,21 @@ donate:
   message: 非常感谢您的喜欢！ <i class="fa fa-heart" style="color:#d43f57"></i>
   qrcode_placeholder: "https://dev.krt.moe/demo-assets/donate.webp"
   platforms:
-    - name: "模拟支付"
-      icon: "credit-card"
-      color: "skyblue"
-      qrcode: "example_payment"
+    - name: "支付宝"
+      icon: |
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-alipay">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M19 3h-14a2 2 0 0 0 -2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2 -2v-14a2 2 0 0 0 -2 -2z" />
+          <path d="M7 7h10" />
+          <path d="M12 3v7" />
+          <path d="M21 17.314c-2.971 -1.923 -15 -8.779 -15 -1.864c0 1.716 1.52 2.55 2.985 2.55c3.512 0 6.814 -5.425 6.814 -8h-6.604" />
+        </svg>
+      color: "#1677ff"
+      qrcode: "https://qr.alipay.com/fkx19199bakwsserrvtcpcd"
+    - name: "微信支付"
+      icon: "wechat"
+      color: "#38ad5a"
+      qrcode: "wxp://f2f0XcvF5l0F_O58t36tEvrLHMVq2B00DZpoIja0hdfc0r8cNeP_RwZetF7cqIXOSajE"
 
 # 版权说明
 copyright_notice:
@@ -118,6 +130,15 @@ visit_count:
 ################## 额外的注入代码 ##################
 additional_injections:
   head: |
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
     <link rel="stylesheet" href="/comments/gitalk.css" />
   after_footer: |
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
     <script src="/comments/gitalk.js"></script>
+# 使用 Waline 评论系统
+# additional_injections:
+#   head: |
+#     <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
+#     <link rel="stylesheet" href="/comments/waline.css" />
+#   after_footer: |
+#     <script defer type="module" src="/comments/waline.js"></script>

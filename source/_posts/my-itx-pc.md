@@ -8,6 +8,7 @@ date: 2024-11-22 16:30:50
 author: dondaha
 categories: 硬件
 tags: [装机,硬件]
+cover: https://s2.loli.net/2024/12/02/E6xlmYDCRdBohLW.jpg
 ---
 
 ## 在前面
@@ -28,7 +29,7 @@ tags: [装机,硬件]
 | 显卡       | RX588 单风扇           | 拼多多   | 336元  |
 | 电源       | flex白小1u400w         | 拼多多   | 131元  |
 | WiFi天线   | 8db增益白              | 拼多多   | 6.8元  |
-| 网卡       | mt7922                 | 拼多多   | 51元   |
+| 网卡       | ax210                 | 拼多多   | 68.3元   |
 | 机箱       | 机械大叔G40            | 拼多多   | 119元  |
 | 风扇       | 冰蝶9015白 ARGB*2      | 拼多多   | 40元   |
 | CPU散热    | 冰蝶下压ARGB           | 拼多多   | 68元   |
@@ -36,3 +37,15 @@ tags: [装机,硬件]
 | **合计**   |                        |          | **2518.7元** |
 
 ## 组装过程
+请出我们的5600，最后一代有针脚的amd cpu
+![](https://s2.loli.net/2024/12/02/6vXDzAGmhMw7JnK.jpg)
+然后是白白的静粤小主板
+![IMG_1949.jpg](https://s2.loli.net/2024/12/02/XVTE2LjPf1rU46y.jpg)
+和散热器装在一块
+![IMG_1953.jpg](https://s2.loli.net/2024/12/02/vqA3OgX8CdU9EIc.jpg)
+三朝元老580
+![IMG_1958.jpg](https://s2.loli.net/2024/12/02/MVgyaqpR7WwClYE.jpg)
+![IMG_1959.jpg](https://s2.loli.net/2024/12/02/hbip1MLTVOm8wyF.jpg)
+把电源、风扇、硬盘之类的装好就可以啦
+![IMG_1951.jpg](https://s2.loli.net/2024/12/02/w4ulQqRP3f8rXhT.jpg)
+![IMG_1965.jpg](https://s2.loli.net/2024/12/02/LNJPgs6vABSCehO.jpg)
