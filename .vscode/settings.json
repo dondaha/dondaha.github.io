@@ -16,5 +16,10 @@
             "command": "extension.execute",
             "priority": 4
         }
-    ]
+    ],
+    "pasteImage.path": "${currentFileDir}/../images",
+    "pasteImage.basePath": "${currentFileDir}/../images",
+    "markdown.editor.filePaste.enabled": "never",
+    "markdown.editor.filePaste.copyIntoWorkspace": "never",
+    "pasteImage.suffix": "aaa"
 }
