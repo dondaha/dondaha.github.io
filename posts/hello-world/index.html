@@ -85,8 +85,8 @@
 
   <!-- 额外的追加注入项 -->
   
-    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
-<link rel="stylesheet" href="/comments/waline.css" />
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<link rel="stylesheet" href="/comments/gitalk.css" />
 
   
 <meta name="generator" content="Hexo 7.3.0"></head>
@@ -223,16 +223,6 @@
                     </li>
                 
                 
-                    <li>
-                        <i class="fa fa-eye"></i>
-                        <span data-path="/posts/hello-world/" class="waline-pageview-count"> </span> 次阅读
-                    </li>
-                
-                
-                    <li>
-                        <i class="fa fa-commenting-o"></i>
-                        <span data-path="/posts/hello-world/" class="waline-comment-count"> </span> 条评论
-                    </li>
                 
             </ul>
         </header>
@@ -285,7 +275,7 @@
     
     
         <div class="comment-post">
-            <div id="w-comments" class="kr-comments" data-path="/posts/hello-world/"></div>
+            <div id="gitalk-container" class="kr-comments lazy-load" data-path="/posts/hello-world/"></div>
         </div>
     
 </article>
@@ -422,12 +412,6 @@
                             <li>站点由 <a href="https://github.com/dondaha" target="_blank">dondaha</a> 用 <i class="fa fa-heart" style="color:#d43f57"></i> 搭建</li>
                         </div>
                         <!-- 额外的追加注入项 -->
-                        
-                            <div>
-                                
-                                    <li>您是本站的第 <span data-path="/index.html" class="waline-pageview-count"></span> 位访客</li>
-                                
-                            </div>
                         
                             <div>
                                 
@@ -575,7 +559,8 @@
 
 <!-- 额外的追加注入项 -->
 
-  <script defer type="module" src="/comments/waline.js"></script>
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script src="/comments/gitalk.js"></script>
 
 
 
