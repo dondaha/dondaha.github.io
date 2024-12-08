@@ -5,10 +5,11 @@ toc: true
 donate: true
 share: true
 date: 2024-12-08 15:13:11
-categories:深度学习
-tags:[编程,深度学习,目标检测]
-cover:https://notes.sjtu.edu.cn/uploads/upload_941ec415377bbf2b1f7f2ee0ea02c41d.png
+categories: 深度学习
+tags: [编程,深度学习,目标检测]
+cover: https://notes.sjtu.edu.cn/uploads/upload_941ec415377bbf2b1f7f2ee0ea02c41d.png
 ---
+
 ## 我的环境
 ```
 (yolov11) PS F:\Program-NEW\Python\projects\AU3302\HW1> nvidia-smi
