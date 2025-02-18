@@ -6,7 +6,7 @@
   <link href="https://blog.dondaha.top/atom.xml" rel="self"/>
   
   <link href="https://blog.dondaha.top/"/>
-  <updated>2024-12-08T07:23:01.000Z</updated>
+  <updated>2025-02-18T06:38:05.119Z</updated>
   <id>https://blog.dondaha.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AU3310计算机控制技术-课堂笔记</title>
+    <link href="https://blog.dondaha.top/posts/au3310-notes/"/>
+    <id>https://blog.dondaha.top/posts/au3310-notes/</id>
+    <published>2025-02-18T03:14:44.000Z</published>
+    <updated>2025-02-18T06:38:05.119Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Week-1-Class-1-2025-2-18"><a href="#Week-1-Class-1-2025-2-18" class="headerlink" title="Week 1, Class 1, 2025.2.18"></a>Week 1, Class 1, 2025.2.18</h2><p>Lecture 1: Introduction to Computer Control Technology</p><p>朱善迎 <a href="mailto:&#x73;&#104;&#121;&#122;&#x68;&#x75;&#x40;&#x73;&#106;&#116;&#x75;&#46;&#101;&#100;&#117;&#46;&#99;&#x6e;">&#x73;&#104;&#121;&#122;&#x68;&#x75;&#x40;&#x73;&#106;&#116;&#x75;&#46;&#101;&#100;&#117;&#46;&#99;&#x6e;</a> 微信号s14528707</p><ul><li>Wang Shuling(王淑玲), PhD student<br>Wechat ID:  wsl17862707921<br>E-mail: <a href="mailto:&#x73;&#x68;&#117;&#108;&#105;&#110;&#103;&#x77;&#x61;&#x6e;&#103;&#50;&#48;&#x32;&#49;&#95;&#115;&#106;&#x74;&#x75;&#64;&#115;&#106;&#x74;&#x75;&#x2e;&#x65;&#100;&#x75;&#46;&#99;&#x6e;">&#x73;&#x68;&#117;&#108;&#105;&#110;&#103;&#x77;&#x61;&#x6e;&#103;&#50;&#48;&#x32;&#49;&#95;&#115;&#106;&#x74;&#x75;&#64;&#115;&#106;&#x74;&#x75;&#x2e;&#x65;&#100;&#x75;&#46;&#99;&#x6e;</a></li><li>Duan Mengmeng(段萌萌), PhD student<br>Wechat ID:  hhhoneybiubiu<br>E-mail: <a href="mailto:&#x64;&#117;&#x61;&#110;&#95;&#x6d;&#x6d;&#64;&#x73;&#106;&#x74;&#x75;&#46;&#101;&#100;&#117;&#x2e;&#99;&#110;">&#x64;&#117;&#x61;&#110;&#95;&#x6d;&#x6d;&#64;&#x73;&#106;&#x74;&#x75;&#46;&#101;&#100;&#117;&#x2e;&#99;&#110;</a></li></ul><p>课本：</p><ul><li>C. L. Phillips, H. T. Nagle, A. Chakrabortty, <strong>Digital Control System Analysisand Design</strong>, 4th ed. Boston: Pearson, 2015</li><li>Genke Yang, Jianying Xie, <strong>Micro-computer Control Technology</strong>, 4th ed. Changsha:National Defense Industry Press, 2016 (in Chinese)</li></ul><p>分数组成：</p><ul><li>20% homework assignments</li><li>10% group project（3人）</li><li>10% attendance &amp; pop-up quizzes</li><li>60% final exam</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Week-1-Class-1-2025-2-18&quot;&gt;&lt;a href=&quot;#Week-1-Class-1-2025-2-18&quot; class=&quot;headerlink&quot; title=&quot;Week 1, Class 1, 2025.2.18&quot;&gt;&lt;/a&gt;Week 1, Clas</summary>
+      
+    
+    
+    
+    <category term="自动化课程" scheme="https://blog.dondaha.top/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%AF%BE%E7%A8%8B/"/>
+    
+    
+    <category term="课程笔记" scheme="https://blog.dondaha.top/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="自动化" scheme="https://blog.dondaha.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+    <category term="控制" scheme="https://blog.dondaha.top/tags/%E6%8E%A7%E5%88%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>yolo报错&#39;torchvision::nms&#39; is only available for these backends</title>
