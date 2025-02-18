@@ -1,0 +1,17 @@
+---
+title: AU3324运动控制系统-课堂笔记
+comments: true
+toc: true
+donate: true
+share: true
+date: 2025-02-18 11:14:44
+categories: 自动化课程
+tags: [课程笔记,自动化,控制]
+---
+
+## Week 1, Class 1, 2025.2.18
+
+
+教材：
+
+- 《运动控制系统》
