@@ -6,7 +6,7 @@
   <link href="https://blog.dondaha.top/atom.xml" rel="self"/>
   
   <link href="https://blog.dondaha.top/"/>
-  <updated>2025-02-18T06:38:05.119Z</updated>
+  <updated>2025-02-19T00:33:57.185Z</updated>
   <id>https://blog.dondaha.top/</id>
   
   <author>
@@ -17,13 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>AU3308过程控制系统-课堂笔记</title>
+    <link href="https://blog.dondaha.top/posts/au3308-notes/"/>
+    <id>https://blog.dondaha.top/posts/au3308-notes/</id>
+    <published>2025-02-19T00:05:06.000Z</published>
+    <updated>2025-02-19T00:33:57.185Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Week-1-Class-2-2025-2-19"><a href="#Week-1-Class-2-2025-2-19" class="headerlink" title="Week 1, Class 2, 2025.2.19"></a>Week 1, Class 2, 2025.2.19</h2><p>考题分布：</p><ul><li>填空题（15分）</li><li>选择题（可多选）12分</li><li>计算题（10分）</li><li>分析计算题（比计算题难，先分析再计算）（20分）</li><li>设计两种不同的控制策略来控制一个过程（18分）</li></ul><p>两类控制目标：设定值跟踪控制、抗干扰控制</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Week-1-Class-2-2025-2-19&quot;&gt;&lt;a href=&quot;#Week-1-Class-2-2025-2-19&quot; class=&quot;headerlink&quot; title=&quot;Week 1, Class 2, 2025.2.19&quot;&gt;&lt;/a&gt;Week 1, Clas</summary>
+      
+    
+    
+    
+    <category term="自动化课程" scheme="https://blog.dondaha.top/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%AF%BE%E7%A8%8B/"/>
+    
+    
+    <category term="课程笔记" scheme="https://blog.dondaha.top/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="自动化" scheme="https://blog.dondaha.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+    <category term="控制" scheme="https://blog.dondaha.top/tags/%E6%8E%A7%E5%88%B6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>AU3310计算机控制技术-课堂笔记</title>
     <link href="https://blog.dondaha.top/posts/au3310-notes/"/>
     <id>https://blog.dondaha.top/posts/au3310-notes/</id>
     <published>2025-02-18T03:14:44.000Z</published>
-    <updated>2025-02-18T06:38:05.119Z</updated>
+    <updated>2025-02-18T15:36:38.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Week-1-Class-1-2025-2-18"><a href="#Week-1-Class-1-2025-2-18" class="headerlink" title="Week 1, Class 1, 2025.2.18"></a>Week 1, Class 1, 2025.2.18</h2><p>Lecture 1: Introduction to Computer Control Technology</p><p>朱善迎 <a href="mailto:&#x73;&#104;&#121;&#122;&#x68;&#x75;&#x40;&#x73;&#106;&#116;&#x75;&#46;&#101;&#100;&#117;&#46;&#99;&#x6e;">&#x73;&#104;&#121;&#122;&#x68;&#x75;&#x40;&#x73;&#106;&#116;&#x75;&#46;&#101;&#100;&#117;&#46;&#99;&#x6e;</a> 微信号s14528707</p><ul><li>Wang Shuling(王淑玲), PhD student<br>Wechat ID:  wsl17862707921<br>E-mail: <a href="mailto:&#x73;&#x68;&#117;&#108;&#105;&#110;&#103;&#x77;&#x61;&#x6e;&#103;&#50;&#48;&#x32;&#49;&#95;&#115;&#106;&#x74;&#x75;&#64;&#115;&#106;&#x74;&#x75;&#x2e;&#x65;&#100;&#x75;&#46;&#99;&#x6e;">&#x73;&#x68;&#117;&#108;&#105;&#110;&#103;&#x77;&#x61;&#x6e;&#103;&#50;&#48;&#x32;&#49;&#95;&#115;&#106;&#x74;&#x75;&#64;&#115;&#106;&#x74;&#x75;&#x2e;&#x65;&#100;&#x75;&#46;&#99;&#x6e;</a></li><li>Duan Mengmeng(段萌萌), PhD student<br>Wechat ID:  hhhoneybiubiu<br>E-mail: <a href="mailto:&#x64;&#117;&#x61;&#110;&#95;&#x6d;&#x6d;&#64;&#x73;&#106;&#x74;&#x75;&#46;&#101;&#100;&#117;&#x2e;&#99;&#110;">&#x64;&#117;&#x61;&#110;&#95;&#x6d;&#x6d;&#64;&#x73;&#106;&#x74;&#x75;&#46;&#101;&#100;&#117;&#x2e;&#99;&#110;</a></li></ul><p>课本：</p><ul><li>C. L. Phillips, H. T. Nagle, A. Chakrabortty, <strong>Digital Control System Analysisand Design</strong>, 4th ed. Boston: Pearson, 2015</li><li>Genke Yang, Jianying Xie, <strong>Micro-computer Control Technology</strong>, 4th ed. Changsha:National Defense Industry Press, 2016 (in Chinese)</li></ul><p>分数组成：</p><ul><li>20% homework assignments</li><li>10% group project（3人）</li><li>10% attendance &amp; pop-up quizzes</li><li>60% final exam</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="Week-1-Class-1-2025-2-18"><a href="#Week-1-Class-1-2025-2-18" class="headerlink" title="Week 1, Class 1, 2025.2.18"></a>Week 1, Class 1, 2025.2.18</h2><p>Lecture 1: Introduction to Computer Control Technology</p><p>朱善迎 <a href="mailto:&#x73;&#x68;&#x79;&#x7a;&#x68;&#x75;&#64;&#x73;&#x6a;&#x74;&#117;&#46;&#x65;&#100;&#x75;&#x2e;&#x63;&#110;">&#x73;&#x68;&#x79;&#x7a;&#x68;&#x75;&#64;&#x73;&#x6a;&#x74;&#117;&#46;&#x65;&#100;&#x75;&#x2e;&#x63;&#110;</a> 微信号s14528707</p><ul><li>Wang Shuling(王淑玲), PhD student<br>Wechat ID:  wsl17862707921<br>E-mail: <a href="mailto:&#x73;&#104;&#117;&#108;&#x69;&#x6e;&#103;&#x77;&#97;&#110;&#x67;&#50;&#48;&#50;&#x31;&#95;&#x73;&#106;&#x74;&#x75;&#x40;&#x73;&#106;&#116;&#117;&#x2e;&#101;&#x64;&#117;&#46;&#x63;&#x6e;">&#x73;&#104;&#117;&#108;&#x69;&#x6e;&#103;&#x77;&#97;&#110;&#x67;&#50;&#48;&#50;&#x31;&#95;&#x73;&#106;&#x74;&#x75;&#x40;&#x73;&#106;&#116;&#117;&#x2e;&#101;&#x64;&#117;&#46;&#x63;&#x6e;</a></li><li>Duan Mengmeng(段萌萌), PhD student<br>Wechat ID:  hhhoneybiubiu<br>E-mail: <a href="mailto:&#100;&#117;&#97;&#110;&#x5f;&#109;&#109;&#64;&#115;&#106;&#116;&#117;&#x2e;&#101;&#x64;&#x75;&#46;&#99;&#110;">&#100;&#117;&#97;&#110;&#x5f;&#109;&#109;&#64;&#115;&#106;&#116;&#117;&#x2e;&#101;&#x64;&#x75;&#46;&#99;&#110;</a></li></ul><p>课本：</p><ul><li>C. L. Phillips, H. T. Nagle, A. Chakrabortty, <strong>Digital Control System Analysisand Design</strong>, 4th ed. Boston: Pearson, 2015</li><li>Genke Yang, Jianying Xie, <strong>Micro-computer Control Technology</strong>, 4th ed. Changsha:National Defense Industry Press, 2016 (in Chinese)</li></ul><p>分数组成：</p><ul><li>20% homework assignments</li><li>10% group project（3人）</li><li>10% attendance &amp; pop-up quizzes</li><li>60% final exam</li></ul>]]></content>
     
     
       
@@ -49,7 +77,7 @@
     <link href="https://blog.dondaha.top/posts/au3324-notes/"/>
     <id>https://blog.dondaha.top/posts/au3324-notes/</id>
     <published>2025-02-18T03:14:44.000Z</published>
-    <updated>2025-02-18T15:36:21.820Z</updated>
+    <updated>2025-02-18T15:36:38.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Week-1-Class-1-2025-2-18"><a href="#Week-1-Class-1-2025-2-18" class="headerlink" title="Week 1, Class 1, 2025.2.18"></a>Week 1, Class 1, 2025.2.18</h2><p>教材：</p><ul><li>《运动控制系统》</li></ul>]]></content>
     
@@ -143,31 +171,6 @@
     <category term="装机" scheme="https://blog.dondaha.top/tags/%E8%A3%85%E6%9C%BA/"/>
     
     <category term="硬件" scheme="https://blog.dondaha.top/tags/%E7%A1%AC%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>你好，世界！</title>
-    <link href="https://blog.dondaha.top/posts/hello-world/"/>
-    <id>https://blog.dondaha.top/posts/hello-world/</id>
-    <published>2018-05-06T09:03:12.000Z</published>
-    <updated>2024-11-22T03:05:53.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>欢迎使用 <code>Kratos : Rebirth</code> 这个我们精心打造的 Hexo 主题！希望能在接下来的旅途中与您相伴，共同创造出更多难以忘怀的美好体验。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;欢迎使用 &lt;code&gt;Kratos : Rebirth&lt;/code&gt; 这个我们精心打造的 Hexo 主题！希望能在接下来的旅途中与您相伴，共同创造出更多难以忘怀的美好体验。&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="全新体验" scheme="https://blog.dondaha.top/categories/%E5%85%A8%E6%96%B0%E4%BD%93%E9%AA%8C/"/>
-    
-    
-    <category term="欢迎" scheme="https://blog.dondaha.top/tags/%E6%AC%A2%E8%BF%8E/"/>
     
   </entry>
   
