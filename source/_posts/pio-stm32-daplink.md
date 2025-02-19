@@ -7,6 +7,7 @@ share: true
 date: 2024-12-05 15:19:21
 categories:
 tags:
+cover: https://notes.sjtu.edu.cn/uploads/upload_50c675fdea9c6e8fa301f61e67fc7c4a.png
 ---
 
 # 在PlatformIO中编程STM32时使用DAPLink
