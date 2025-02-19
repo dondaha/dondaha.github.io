@@ -6,7 +6,7 @@
   <link href="https://blog.dondaha.top/atom.xml" rel="self"/>
   
   <link href="https://blog.dondaha.top/"/>
-  <updated>2025-02-19T00:33:57.185Z</updated>
+  <updated>2025-02-19T01:40:41.472Z</updated>
   <id>https://blog.dondaha.top/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://blog.dondaha.top/posts/au3308-notes/"/>
     <id>https://blog.dondaha.top/posts/au3308-notes/</id>
     <published>2025-02-19T00:05:06.000Z</published>
-    <updated>2025-02-19T00:33:57.185Z</updated>
+    <updated>2025-02-19T01:40:41.472Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Week-1-Class-2-2025-2-19"><a href="#Week-1-Class-2-2025-2-19" class="headerlink" title="Week 1, Class 2, 2025.2.19"></a>Week 1, Class 2, 2025.2.19</h2><p>考题分布：</p><ul><li>填空题（15分）</li><li>选择题（可多选）12分</li><li>计算题（10分）</li><li>分析计算题（比计算题难，先分析再计算）（20分）</li><li>设计两种不同的控制策略来控制一个过程（18分）</li></ul><p>两类控制目标：设定值跟踪控制、抗干扰控制</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Week-1-Class-2-2025-2-19"><a href="#Week-1-Class-2-2025-2-19" class="headerlink" title="Week 1, Class 2, 2025.2.19"></a>Week 1, Class 2, 2025.2.19</h2><p>分数组成：</p><ul><li>课堂小测试 20%</li><li>课堂参与度 10%</li><li>课后作业 10%</li><li>期末考试 60%</li></ul><p>考题分布：</p><ul><li>填空题（15分）</li><li>选择题（可多选）12分</li><li>计算题（10分）</li><li>分析计算题（比计算题难，先分析再计算）（20分）</li><li>设计两种不同的控制策略来控制一个过程（18分）</li></ul><p>两类控制目标：设定值跟踪控制、抗干扰控制<br>系统四个基本组成：<strong>传感器、控制器、执行器、被控对象</strong><br>过控系统六大被控变量：<strong>温度、压力、液位、流量、湿度、pH</strong><br>过控系统的三个主要设计目标：<strong>安全性、稳定性、经济性</strong><br>过控系统的性能指标：<strong>稳定性、快速性和准确性</strong></p><p>example: 马桶控制系统<br><img src="https://notes.sjtu.edu.cn/uploads/upload_3aa6b5730a127b562cc71913f927097f.png"><br><img src="https://notes.sjtu.edu.cn/uploads/upload_167ace80029c4ed52ac93773ebbdfdb2.png"></p>]]></content>
     
     
       
