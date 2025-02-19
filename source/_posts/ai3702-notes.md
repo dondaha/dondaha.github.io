@@ -23,3 +23,6 @@ cover: https://notes.sjtu.edu.cn/uploads/upload_f528537514485bb417eda59aeb9690cf
   - 编程作业+答辩报告
   - 3+人一组
 - 期末考试 50% 随堂考、笔试、闭卷
+
+对本课程的意见或建议（问卷匿名且长期有效）https://wj.sjtu.edu.cn/q/kcNJSB3z
+大作业环境配置云盘链接：https://jbox.sjtu.edu.cn/l/M1VEL8
