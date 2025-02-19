@@ -6,7 +6,7 @@
   <link href="https://blog.dondaha.top/atom.xml" rel="self"/>
   
   <link href="https://blog.dondaha.top/"/>
-  <updated>2025-02-19T02:47:15.790Z</updated>
+  <updated>2025-02-19T02:47:37.000Z</updated>
   <id>https://blog.dondaha.top/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://blog.dondaha.top/posts/ai3702-notes/"/>
     <id>https://blog.dondaha.top/posts/ai3702-notes/</id>
     <published>2025-02-19T00:05:06.000Z</published>
-    <updated>2025-02-19T02:47:15.790Z</updated>
+    <updated>2025-02-19T02:47:37.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Week1-Class1-2025-2-19"><a href="#Week1-Class1-2025-2-19" class="headerlink" title="Week1, Class1, 2025.2.19"></a>Week1, Class1, 2025.2.19</h2><p>课程安排：<br><img src="https://notes.sjtu.edu.cn/uploads/upload_4ca6c375d5e72e22a45555bc16f91920.png"><br>分数组成：</p><ul><li>随堂测试+课后作业 20%</li><li>Project 30%<ul><li>子任务1：运动学 5分</li><li>子任务2：路径规划 10分</li><li>子任务3：定位与导航 15分</li><li>编程作业+答辩报告</li><li>3+人一组</li></ul></li><li>期末考试 50% 随堂考、笔试、闭卷</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="Week1-Class1-2025-2-19"><a href="#Week1-Class1-2025-2-19" class="headerlink" title="Week1, Class1, 2025.2.19"></a>Week1, Class1, 2025.2.19</h2><p>课程安排：<br><img src="https://notes.sjtu.edu.cn/uploads/upload_4ca6c375d5e72e22a45555bc16f91920.png"><br>分数组成：</p><ul><li>随堂测试+课后作业 20%</li><li>Project 30%<ul><li>子任务1：运动学 5分</li><li>子任务2：路径规划 10分</li><li>子任务3：定位与导航 15分</li><li>编程作业+答辩报告</li><li>3+人一组</li></ul></li><li>期末考试 50% 随堂考、笔试、闭卷</li></ul><p>对本课程的意见或建议（问卷匿名且长期有效）<a href="https://wj.sjtu.edu.cn/q/kcNJSB3z">https://wj.sjtu.edu.cn/q/kcNJSB3z</a><br>大作业环境配置云盘链接：<a href="https://jbox.sjtu.edu.cn/l/M1VEL8">https://jbox.sjtu.edu.cn/l/M1VEL8</a></p>]]></content>
     
     
       
@@ -49,7 +49,7 @@
     <link href="https://blog.dondaha.top/posts/au3308-notes/"/>
     <id>https://blog.dondaha.top/posts/au3308-notes/</id>
     <published>2025-02-19T00:05:06.000Z</published>
-    <updated>2025-02-19T02:47:15.854Z</updated>
+    <updated>2025-02-19T02:47:37.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Week-1-Class-2-2025-2-19"><a href="#Week-1-Class-2-2025-2-19" class="headerlink" title="Week 1, Class 2, 2025.2.19"></a>Week 1, Class 2, 2025.2.19</h2><p>分数组成：</p><ul><li>课堂小测试 20%</li><li>课堂参与度 10%</li><li>课后作业 10%</li><li>期末考试 60%</li></ul><p>考题分布：</p><ul><li>填空题（15分）</li><li>选择题（可多选）12分</li><li>计算题（10分）</li><li>分析计算题（比计算题难，先分析再计算）（20分）</li><li>设计两种不同的控制策略来控制一个过程（18分）</li></ul><p>两类控制目标：设定值跟踪控制、抗干扰控制<br>系统四个基本组成：<strong>传感器、控制器、执行器、被控对象</strong><br>过控系统六大被控变量：<strong>温度、压力、液位、流量、湿度、pH</strong><br>过控系统的三个主要设计目标：<strong>安全性、稳定性、经济性</strong><br>过控系统的性能指标：<strong>稳定性、快速性和准确性</strong></p><p>example: 马桶控制系统<br><img src="https://notes.sjtu.edu.cn/uploads/upload_3aa6b5730a127b562cc71913f927097f.png"><br><img src="https://notes.sjtu.edu.cn/uploads/upload_167ace80029c4ed52ac93773ebbdfdb2.png"></p>]]></content>
     
@@ -73,13 +73,13 @@
   </entry>
   
   <entry>
-    <title>AU3324运动控制系统-课堂笔记</title>
-    <link href="https://blog.dondaha.top/posts/au3324-notes/"/>
-    <id>https://blog.dondaha.top/posts/au3324-notes/</id>
+    <title>AU3310计算机控制技术-课堂笔记</title>
+    <link href="https://blog.dondaha.top/posts/au3310-notes/"/>
+    <id>https://blog.dondaha.top/posts/au3310-notes/</id>
     <published>2025-02-18T03:14:44.000Z</published>
-    <updated>2025-02-18T15:36:38.000Z</updated>
+    <updated>2025-02-19T02:47:37.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Week-1-Class-1-2025-2-18"><a href="#Week-1-Class-1-2025-2-18" class="headerlink" title="Week 1, Class 1, 2025.2.18"></a>Week 1, Class 1, 2025.2.18</h2><p>教材：</p><ul><li>《运动控制系统》</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="Week-1-Class-1-2025-2-18"><a href="#Week-1-Class-1-2025-2-18" class="headerlink" title="Week 1, Class 1, 2025.2.18"></a>Week 1, Class 1, 2025.2.18</h2><p>Lecture 1: Introduction to Computer Control Technology</p><p>朱善迎 <a href="mailto:&#115;&#104;&#121;&#122;&#104;&#x75;&#x40;&#x73;&#x6a;&#116;&#x75;&#46;&#101;&#100;&#117;&#46;&#99;&#110;">&#115;&#104;&#121;&#122;&#104;&#x75;&#x40;&#x73;&#x6a;&#116;&#x75;&#46;&#101;&#100;&#117;&#46;&#99;&#110;</a> 微信号s14528707</p><ul><li>Wang Shuling(王淑玲), PhD student<br>Wechat ID:  wsl17862707921<br>E-mail: <a href="mailto:&#115;&#x68;&#x75;&#108;&#105;&#110;&#103;&#119;&#x61;&#110;&#103;&#x32;&#48;&#x32;&#x31;&#x5f;&#115;&#x6a;&#x74;&#117;&#x40;&#x73;&#106;&#116;&#117;&#46;&#x65;&#x64;&#x75;&#46;&#99;&#110;">&#115;&#x68;&#x75;&#108;&#105;&#110;&#103;&#119;&#x61;&#110;&#103;&#x32;&#48;&#x32;&#x31;&#x5f;&#115;&#x6a;&#x74;&#117;&#x40;&#x73;&#106;&#116;&#117;&#46;&#x65;&#x64;&#x75;&#46;&#99;&#110;</a></li><li>Duan Mengmeng(段萌萌), PhD student<br>Wechat ID:  hhhoneybiubiu<br>E-mail: <a href="mailto:&#100;&#117;&#97;&#110;&#x5f;&#109;&#109;&#64;&#115;&#106;&#116;&#117;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#x6e;">&#100;&#117;&#97;&#110;&#x5f;&#109;&#109;&#64;&#115;&#106;&#116;&#117;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#x6e;</a></li></ul><p>课本：</p><ul><li>C. L. Phillips, H. T. Nagle, A. Chakrabortty, <strong>Digital Control System Analysisand Design</strong>, 4th ed. Boston: Pearson, 2015</li><li>Genke Yang, Jianying Xie, <strong>Micro-computer Control Technology</strong>, 4th ed. Changsha:National Defense Industry Press, 2016 (in Chinese)</li></ul><p>分数组成：</p><ul><li>20% homework assignments</li><li>10% group project（3人）</li><li>10% attendance &amp; pop-up quizzes</li><li>60% final exam</li></ul>]]></content>
     
     
       
@@ -101,13 +101,13 @@
   </entry>
   
   <entry>
-    <title>AU3310计算机控制技术-课堂笔记</title>
-    <link href="https://blog.dondaha.top/posts/au3310-notes/"/>
-    <id>https://blog.dondaha.top/posts/au3310-notes/</id>
+    <title>AU3324运动控制系统-课堂笔记</title>
+    <link href="https://blog.dondaha.top/posts/au3324-notes/"/>
+    <id>https://blog.dondaha.top/posts/au3324-notes/</id>
     <published>2025-02-18T03:14:44.000Z</published>
-    <updated>2025-02-18T15:36:38.000Z</updated>
+    <updated>2025-02-19T02:47:37.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Week-1-Class-1-2025-2-18"><a href="#Week-1-Class-1-2025-2-18" class="headerlink" title="Week 1, Class 1, 2025.2.18"></a>Week 1, Class 1, 2025.2.18</h2><p>Lecture 1: Introduction to Computer Control Technology</p><p>朱善迎 <a href="mailto:&#x73;&#x68;&#x79;&#122;&#104;&#117;&#x40;&#x73;&#106;&#x74;&#x75;&#46;&#x65;&#x64;&#x75;&#46;&#x63;&#x6e;">&#x73;&#x68;&#x79;&#122;&#104;&#117;&#x40;&#x73;&#106;&#x74;&#x75;&#46;&#x65;&#x64;&#x75;&#46;&#x63;&#x6e;</a> 微信号s14528707</p><ul><li>Wang Shuling(王淑玲), PhD student<br>Wechat ID:  wsl17862707921<br>E-mail: <a href="mailto:&#115;&#104;&#x75;&#108;&#x69;&#x6e;&#x67;&#119;&#x61;&#110;&#x67;&#x32;&#48;&#x32;&#49;&#x5f;&#115;&#x6a;&#x74;&#117;&#64;&#115;&#x6a;&#x74;&#117;&#46;&#101;&#100;&#x75;&#46;&#99;&#x6e;">&#115;&#104;&#x75;&#108;&#x69;&#x6e;&#x67;&#119;&#x61;&#110;&#x67;&#x32;&#48;&#x32;&#49;&#x5f;&#115;&#x6a;&#x74;&#117;&#64;&#115;&#x6a;&#x74;&#117;&#46;&#101;&#100;&#x75;&#46;&#99;&#x6e;</a></li><li>Duan Mengmeng(段萌萌), PhD student<br>Wechat ID:  hhhoneybiubiu<br>E-mail: <a href="mailto:&#100;&#117;&#x61;&#x6e;&#95;&#109;&#x6d;&#x40;&#115;&#x6a;&#116;&#x75;&#x2e;&#101;&#100;&#x75;&#x2e;&#99;&#110;">&#100;&#117;&#x61;&#x6e;&#95;&#109;&#x6d;&#x40;&#115;&#x6a;&#116;&#x75;&#x2e;&#101;&#100;&#x75;&#x2e;&#99;&#110;</a></li></ul><p>课本：</p><ul><li>C. L. Phillips, H. T. Nagle, A. Chakrabortty, <strong>Digital Control System Analysisand Design</strong>, 4th ed. Boston: Pearson, 2015</li><li>Genke Yang, Jianying Xie, <strong>Micro-computer Control Technology</strong>, 4th ed. Changsha:National Defense Industry Press, 2016 (in Chinese)</li></ul><p>分数组成：</p><ul><li>20% homework assignments</li><li>10% group project（3人）</li><li>10% attendance &amp; pop-up quizzes</li><li>60% final exam</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="Week-1-Class-1-2025-2-18"><a href="#Week-1-Class-1-2025-2-18" class="headerlink" title="Week 1, Class 1, 2025.2.18"></a>Week 1, Class 1, 2025.2.18</h2><p>教材：</p><ul><li>《运动控制系统》</li></ul>]]></content>
     
     
       
@@ -161,7 +161,7 @@
     <link href="https://blog.dondaha.top/posts/pio-stm32-daplink/"/>
     <id>https://blog.dondaha.top/posts/pio-stm32-daplink/</id>
     <published>2024-12-05T07:19:21.000Z</published>
-    <updated>2024-12-05T07:22:29.000Z</updated>
+    <updated>2025-02-19T02:47:37.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="在PlatformIO中编程STM32时使用DAPLink"><a href="#在PlatformIO中编程STM32时使用DAPLink" class="headerlink" title="在PlatformIO中编程STM32时使用DAPLink"></a>在PlatformIO中编程STM32时使用DAPLink</h1><p>修改<code>platformio.ini</code>文件</p><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[env:genericSTM32F103C8]</span></span><br><span class="line"><span class="attr">platform</span> = ststm32</span><br><span class="line"><span class="attr">board</span> = genericSTM32F103C8</span><br><span class="line"><span class="attr">framework</span> = ardui<span class="literal">no</span></span><br><span class="line"><span class="attr">upload_protocol</span> = cmsis-dap</span><br></pre></td></tr></table></figure><p>即可直接upload</p>]]></content>
     
