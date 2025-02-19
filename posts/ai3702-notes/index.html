@@ -7,8 +7,8 @@
     <link rel="icon" href="/assets/favicon.png">
   
   
-  <title>yolo报错&#39;torchvision::nms&#39; is only available for these backends | dondaha&#39;s blog</title>
-  <link rel="canonical" href="https://blog.dondaha.top/posts/yolo-error-with-cuda/">
+  <title>AI3702过程控制系统-课堂笔记 | dondaha&#39;s blog</title>
+  <link rel="canonical" href="https://blog.dondaha.top/posts/ai3702-notes/">
   <meta name="author" content="dondaha" />
   <meta http-equiv="Cache-Control" content="no-transform" />
   <meta http-equiv="Cache-Control" content="no-siteapp" />
@@ -17,22 +17,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="format-detection" content="telphone=no, email=no" />
   
-    <meta name="keywords" content="深度学习, 目标检测, 编程" />
+    <meta name="keywords" content="控制, 自动化, 课程笔记" />
   
-  <meta name="description" content="我的环境12345678910111213(yolov11) PS F:\Program-NEW\Python\projects\AU3302\HW1&gt; nvidia-smiSun Dec  8 15:21:08 2024       +------------------------------------------------------------------------------">
+  <meta name="description" content="Week1, Class1, 2025.2.19课程安排：分数组成：  随堂测试+课后作业 20% Project 30% 子任务1：运动学 5分 子任务2：路径规划 10分 子任务3：定位与导航 15分 编程作业+答辩报告 3+人一组   期末考试 50% 随堂考、笔试、闭卷">
 <meta property="og:type" content="article">
-<meta property="og:title" content="yolo报错&#39;torchvision::nms&#39; is only available for these backends">
-<meta property="og:url" content="https://blog.dondaha.top/posts/yolo-error-with-cuda/index.html">
+<meta property="og:title" content="AI3702过程控制系统-课堂笔记">
+<meta property="og:url" content="https://blog.dondaha.top/posts/ai3702-notes/index.html">
 <meta property="og:site_name" content="dondaha&#39;s blog">
-<meta property="og:description" content="我的环境12345678910111213(yolov11) PS F:\Program-NEW\Python\projects\AU3302\HW1&gt; nvidia-smiSun Dec  8 15:21:08 2024       +------------------------------------------------------------------------------">
+<meta property="og:description" content="Week1, Class1, 2025.2.19课程安排：分数组成：  随堂测试+课后作业 20% Project 30% 子任务1：运动学 5分 子任务2：路径规划 10分 子任务3：定位与导航 15分 编程作业+答辩报告 3+人一组   期末考试 50% 随堂考、笔试、闭卷">
 <meta property="og:locale">
-<meta property="article:published_time" content="2024-12-08T07:13:11.000Z">
-<meta property="article:modified_time" content="2024-12-08T07:23:01.000Z">
+<meta property="og:image" content="https://notes.sjtu.edu.cn/uploads/upload_4ca6c375d5e72e22a45555bc16f91920.png">
+<meta property="article:published_time" content="2025-02-19T00:05:06.000Z">
+<meta property="article:modified_time" content="2025-02-19T02:45:11.786Z">
 <meta property="article:author" content="dondaha">
-<meta property="article:tag" content="编程">
-<meta property="article:tag" content="深度学习">
-<meta property="article:tag" content="目标检测">
+<meta property="article:tag" content="课程笔记">
+<meta property="article:tag" content="自动化">
+<meta property="article:tag" content="控制">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://notes.sjtu.edu.cn/uploads/upload_4ca6c375d5e72e22a45555bc16f91920.png">
   
     <link rel="alternate" href="/atom.xml" title="dondaha's blog" type="application/atom+xml">
   
@@ -203,14 +205,14 @@
         
 
             <article itemscope itemtype="https://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://blog.dondaha.top/posts/yolo-error-with-cuda/">
+    <link itemprop="mainEntityOfPage" href="https://blog.dondaha.top/posts/ai3702-notes/">
     <div class="kratos-hentry kratos-page-inner clearfix">
         <header class="kratos-page-header">
             
-                <h1 class="kratos-page-title text-center" itemprop="name headline">yolo报错'torchvision::nms' is only available for these backends</h1>
+                <h1 class="kratos-page-title text-center" itemprop="name headline">AI3702过程控制系统-课堂笔记</h1>
             
             <ul class="kratos-page-meta text-center">
-                <li><time datetime="2024-12-08T07:13:11.000Z" itemprop="datePublished"><i class="fa fa-calendar"></i> 2024-12-08</time></li>
+                <li><time datetime="2025-02-19T00:05:06.000Z" itemprop="datePublished"><i class="fa fa-calendar"></i> 2025-02-19</time></li>
                 <li itemprop="author" itemscope itemtype="https://schema.org/Person">
                     <i class="fa fa-user"></i> 作者 <span itemprop="name">dondaha</span>
                 </li>
@@ -219,7 +221,7 @@
                         <i class="fa fa-edit"></i> 
                         
                         
-                            ~10.44K
+                            141
                         
                         字
                     </li>
@@ -233,22 +235,23 @@
             
             
                 <div class="kratos-post-inner-toc toc-div-class" >
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%88%91%E7%9A%84%E7%8E%AF%E5%A2%83"><span class="toc-number">1.</span> <span class="toc-text">我的环境</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%97%AE%E9%A2%98%E5%8E%9F%E5%9B%A0%EF%BC%9A"><span class="toc-number">2.</span> <span class="toc-text">问题原因：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%EF%BC%9A"><span class="toc-number">3.</span> <span class="toc-text">解决方法：</span></a></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Week1-Class1-2025-2-19"><span class="toc-number">1.</span> <span class="toc-text">Week1, Class1, 2025.2.19</span></a></li></ol>
                 </div>
             
             <hr />
-            <div itemprop="articleBody"><h2 id="我的环境"><a href="#我的环境" class="headerlink" title="我的环境"></a>我的环境</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">(yolov11) PS F:\Program-NEW\Python\projects\AU3302\HW1&gt; nvidia-smi</span><br><span class="line">Sun Dec  8 15:21:08 2024       </span><br><span class="line">+-----------------------------------------------------------------------------------------+</span><br><span class="line">| NVIDIA-SMI 560.94                 Driver Version: 560.94         CUDA Version: 12.6     |</span><br><span class="line">|-----------------------------------------+------------------------+----------------------+</span><br><span class="line">| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |</span><br><span class="line">| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |</span><br><span class="line">|                                         |                        |               MIG M. |</span><br><span class="line">|=========================================+========================+======================|</span><br><span class="line">|   0  NVIDIA GeForce RTX 2080 Ti   WDDM  |   00000000:01:00.0  On |                  N/A |</span><br><span class="line">| 22%   47C    P0             61W /  250W |    1416MiB /  22528MiB |      2%      Default |</span><br><span class="line">|                                         |                        |                  N/A |</span><br><span class="line">+-----------------------------------------+------------------------+----------------------+</span><br></pre></td></tr></table></figure>
-
-<h2 id="问题原因："><a href="#问题原因：" class="headerlink" title="问题原因："></a>问题原因：</h2><p>安装了cuda版本过高的torch</p>
-<h2 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h2><p>卸载当前的torch</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">pip uninstall torch</span><br><span class="line">pip uninstall torchvision</span><br><span class="line">pip uninstall torchaudio</span><br></pre></td></tr></table></figure>
-<p>安装较低版本的torch和torchvision (cu118)</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118</span><br></pre></td></tr></table></figure>
-
-
-
-<p>完整的报错信息：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br></pre></td><td class="code"><pre><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;F:\Program-NEW\Python\projects\AU3302\HW1\train.py&quot;, line 8, in &lt;module&gt;</span><br><span class="line">    results = model.train(data=&quot;output/data-convert/data.yaml&quot;, epochs=100, imgsz=640, dropout=0.1, amp=False)</span><br><span class="line">              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span><br><span class="line">  File &quot;C:\Users\16569\miniconda3\envs\yolov11\Lib\site-packages\ultralytics\engine\model.py&quot;, line 806, in train</span><br><span class="line">    self.trainer.train()</span><br><span class="line">  File &quot;C:\Users\16569\miniconda3\envs\yolov11\Lib\site-packages\ultralytics\engine\trainer.py&quot;, line 207, in train</span><br><span class="line">    self._do_train(world_size)</span><br><span class="line">  File &quot;C:\Users\16569\miniconda3\envs\yolov11\Lib\site-packages\ultralytics\engine\trainer.py&quot;, line 432, in _do_train</span><br><span class="line">    self.metrics, self.fitness = self.validate()</span><br><span class="line">                                 ^^^^^^^^^^^^^^^</span><br><span class="line">  File &quot;C:\Users\16569\miniconda3\envs\yolov11\Lib\site-packages\ultralytics\engine\trainer.py&quot;, line 605, in validate</span><br><span class="line">    metrics = self.validator(self)</span><br><span class="line">              ^^^^^^^^^^^^^^^^^^^^</span><br><span class="line">  File &quot;C:\Users\16569\miniconda3\envs\yolov11\Lib\site-packages\torch\utils\_contextlib.py&quot;, line 116, in decorate_context</span><br><span class="line">    return func(*args, **kwargs)</span><br><span class="line">           ^^^^^^^^^^^^^^^^^^^^^</span><br><span class="line">  File &quot;C:\Users\16569\miniconda3\envs\yolov11\Lib\site-packages\ultralytics\engine\validator.py&quot;, line 189, in __call__</span><br><span class="line">    preds = self.postprocess(preds)</span><br><span class="line">            ^^^^^^^^^^^^^^^^^^^^^^^</span><br><span class="line">  File &quot;C:\Users\16569\miniconda3\envs\yolov11\Lib\site-packages\ultralytics\models\yolo\detect\val.py&quot;, line 94, in postprocess</span><br><span class="line">    return ops.non_max_suppression(</span><br><span class="line">           ^^^^^^^^^^^^^^^^^^^^^^^^</span><br><span class="line">  File &quot;C:\Users\16569\miniconda3\envs\yolov11\Lib\site-packages\ultralytics\utils\ops.py&quot;, line 291, in non_max_suppression</span><br><span class="line">    i = torchvision.ops.nms(boxes, scores, iou_thres)  # NMS</span><br><span class="line">        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span><br><span class="line">  File &quot;C:\Users\16569\miniconda3\envs\yolov11\Lib\site-packages\torchvision\ops\boxes.py&quot;, line 41, in nms</span><br><span class="line">    return torch.ops.torchvision.nms(boxes, scores, iou_threshold)</span><br><span class="line">           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span><br><span class="line">  File &quot;C:\Users\16569\miniconda3\envs\yolov11\Lib\site-packages\torch\_ops.py&quot;, line 1116, in __call__</span><br><span class="line">    return self._op(*args, **(kwargs or &#123;&#125;))</span><br><span class="line">           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span><br><span class="line">NotImplementedError: Could not run &#x27;torchvision::nms&#x27; with arguments from the &#x27;CUDA&#x27; backend. This could be because the operator doesn&#x27;t exist for this backend, or was omitted during the selective/custom build process (if using custom build). If you are a Facebook employee using PyTorch on mobile, please visit https://fburl.com/ptmfixes for possible resolutions. &#x27;torchvision::nms&#x27; is only available for these backends: [CPU, Meta, QuantizedCPU, BackendSelect, Python, FuncTorchDynamicLayerBackMode, Functionalize, Named, Conjugate, Negative, ZeroTensor, ADInplaceOrView, AutogradOther, AutogradCPU, AutogradCUDA, AutogradXLA, AutogradMPS, AutogradXPU, AutogradHPU, AutogradLazy, AutogradMeta, Tracer, AutocastCPU, AutocastXPU, AutocastMPS, AutocastCUDA, FuncTorchBatched, BatchedNestedTensor, FuncTorchVmapMode, Batched, VmapMode, FuncTorchGradWrapper, PythonTLSSnapshot, FuncTorchDynamicLayerFrontMode, PreDispatch, PythonDispatcher].</span><br><span class="line"></span><br><span class="line">CPU: registered at C:\actions-runner\_work\vision\vision\pytorch\vision\torchvision\csrc\ops\cpu\nms_kernel.cpp:112 [kernel]</span><br><span class="line">Meta: registered at /dev/null:184 [kernel]</span><br><span class="line">QuantizedCPU: registered at C:\actions-runner\_work\vision\vision\pytorch\vision\torchvision\csrc\ops\quantized\cpu\qnms_kernel.cpp:124 [kernel]</span><br><span class="line">BackendSelect: fallthrough registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\core\BackendSelectFallbackKernel.cpp:3 [backend fallback]        </span><br><span class="line">Python: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\core\PythonFallbackKernel.cpp:153 [backend fallback]</span><br><span class="line">FuncTorchDynamicLayerBackMode: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\functorch\DynamicLayer.cpp:497 [backend fallback]</span><br><span class="line">Functionalize: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\FunctionalizeFallbackKernel.cpp:349 [backend fallback]</span><br><span class="line">Named: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\core\NamedRegistrations.cpp:7 [backend fallback]</span><br><span class="line">Conjugate: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\ConjugateFallback.cpp:17 [backend fallback]</span><br><span class="line">Negative: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\NegateFallback.cpp:18 [backend fallback]</span><br><span class="line">ZeroTensor: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\ZeroTensorFallback.cpp:86 [backend fallback]</span><br><span class="line">ADInplaceOrView: fallthrough registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\core\VariableFallbackKernel.cpp:96 [backend fallback]</span><br><span class="line">AutogradOther: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\core\VariableFallbackKernel.cpp:63 [backend fallback]</span><br><span class="line">AutogradCPU: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\core\VariableFallbackKernel.cpp:67 [backend fallback]</span><br><span class="line">AutogradCUDA: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\core\VariableFallbackKernel.cpp:75 [backend fallback]</span><br><span class="line">AutogradXLA: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\core\VariableFallbackKernel.cpp:79 [backend fallback]</span><br><span class="line">AutogradMPS: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\core\VariableFallbackKernel.cpp:87 [backend fallback]</span><br><span class="line">AutogradXPU: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\core\VariableFallbackKernel.cpp:71 [backend fallback]</span><br><span class="line">AutogradHPU: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\core\VariableFallbackKernel.cpp:100 [backend fallback]</span><br><span class="line">AutogradLazy: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\core\VariableFallbackKernel.cpp:83 [backend fallback]</span><br><span class="line">AutogradMeta: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\core\VariableFallbackKernel.cpp:91 [backend fallback]</span><br><span class="line">Tracer: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\torch\csrc\autograd\TraceTypeManual.cpp:294 [backend fallback]</span><br><span class="line">AutocastCPU: registered at C:\actions-runner\_work\vision\vision\pytorch\vision\torchvision\csrc\ops\autocast\nms_kernel.cpp:34 [kernel]</span><br><span class="line">AutocastXPU: registered at C:\actions-runner\_work\vision\vision\pytorch\vision\torchvision\csrc\ops\autocast\nms_kernel.cpp:41 [kernel]</span><br><span class="line">AutocastMPS: fallthrough registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\autocast_mode.cpp:209 [backend fallback]</span><br><span class="line">AutocastCUDA: registered at C:\actions-runner\_work\vision\vision\pytorch\vision\torchvision\csrc\ops\autocast\nms_kernel.cpp:27 [kernel]</span><br><span class="line">FuncTorchBatched: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\functorch\LegacyBatchingRegistrations.cpp:731 [backend fallback]</span><br><span class="line">BatchedNestedTensor: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\functorch\LegacyBatchingRegistrations.cpp:758 [backend fallback]       </span><br><span class="line">FuncTorchVmapMode: fallthrough registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\functorch\VmapModeRegistrations.cpp:27 [backend fallback]    </span><br><span class="line">Batched: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\LegacyBatchingRegistrations.cpp:1075 [backend fallback]</span><br><span class="line">VmapMode: fallthrough registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\VmapModeRegistrations.cpp:33 [backend fallback]</span><br><span class="line">FuncTorchGradWrapper: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\functorch\TensorWrapper.cpp:207 [backend fallback]</span><br><span class="line">PythonTLSSnapshot: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\core\PythonFallbackKernel.cpp:161 [backend fallback]</span><br><span class="line">FuncTorchDynamicLayerFrontMode: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\functorch\DynamicLayer.cpp:493 [backend fallback]</span><br><span class="line">PreDispatch: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\core\PythonFallbackKernel.cpp:165 [backend fallback]</span><br><span class="line">PythonDispatcher: registered at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\core\PythonFallbackKernel.cpp:157 [backend fallback]</span><br></pre></td></tr></table></figure>
+            <div itemprop="articleBody"><h2 id="Week1-Class1-2025-2-19"><a href="#Week1-Class1-2025-2-19" class="headerlink" title="Week1, Class1, 2025.2.19"></a>Week1, Class1, 2025.2.19</h2><p>课程安排：<br><img src="https://notes.sjtu.edu.cn/uploads/upload_4ca6c375d5e72e22a45555bc16f91920.png"><br>分数组成：</p>
+<ul>
+<li>随堂测试+课后作业 20%</li>
+<li>Project 30%<ul>
+<li>子任务1：运动学 5分</li>
+<li>子任务2：路径规划 10分</li>
+<li>子任务3：定位与导航 15分</li>
+<li>编程作业+答辩报告</li>
+<li>3+人一组</li>
+</ul>
+</li>
+<li>期末考试 50% 随堂考、笔试、闭卷</li>
+</ul>
 </div>
         </div>
         
@@ -272,10 +275,10 @@
             <div class="footer-tag clearfix">
                 <div class="pull-left">
                 <i class="fa fa-tags"></i>
-                    <a class="tag-none-link" href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" rel="tag">深度学习</a>, <a class="tag-none-link" href="/tags/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B/" rel="tag">目标检测</a>, <a class="tag-none-link" href="/tags/%E7%BC%96%E7%A8%8B/" rel="tag">编程</a>
+                    <a class="tag-none-link" href="/tags/%E6%8E%A7%E5%88%B6/" rel="tag">控制</a>, <a class="tag-none-link" href="/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/" rel="tag">自动化</a>, <a class="tag-none-link" href="/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/" rel="tag">课程笔记</a>
                 </div>
                 <div class="pull-date">
-                    <time datetime="2024-12-08T07:23:01.000Z" itemprop="dateModified">最后编辑：2024-12-08</time>
+                    <time datetime="2025-02-19T02:45:11.786Z" itemprop="dateModified">最后编辑：2025-02-19</time>
                 </div>
             </div>
         </footer>
@@ -284,19 +287,19 @@
         <nav class="navigation post-navigation clearfix" role="navigation">
             
             <div class="nav-previous clearfix">
-                <a title=" 在PlatformIO中编程STM32时使用DAPLink" href="/posts/pio-stm32-daplink/"><i class="fa fa-angle-left"></i> 上一篇</a>
+                <a title=" AU3310计算机控制技术-课堂笔记" href="/posts/au3310-notes/"><i class="fa fa-angle-left"></i> 上一篇</a>
             </div>
             
             
             <div class="nav-next clearfix">
-                <a title=" AU3324运动控制系统-课堂笔记" href="/posts/au3324-notes/">下一篇 <i class="fa fa-angle-right"></i></a>
+                <a title=" AU3308过程控制系统-课堂笔记" href="/posts/au3308-notes/">下一篇 <i class="fa fa-angle-right"></i></a>
             </div>
             
         </nav>
     
     
         <div class="comment-post">
-            <div id="gitalk-container" class="kr-comments lazy-load" data-path="/posts/yolo-error-with-cuda/"></div>
+            <div id="gitalk-container" class="kr-comments lazy-load" data-path="/posts/ai3702-notes/"></div>
         </div>
     
 </article>
@@ -360,7 +363,7 @@
         <span class="toc-progress-bar" role="progressbar" aria-label="阅读进度："></span>
     </h4>
     <div class="textwidget">
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%88%91%E7%9A%84%E7%8E%AF%E5%A2%83"><span class="toc-text">我的环境</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%97%AE%E9%A2%98%E5%8E%9F%E5%9B%A0%EF%BC%9A"><span class="toc-text">问题原因：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%EF%BC%9A"><span class="toc-text">解决方法：</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Week1-Class1-2025-2-19"><span class="toc-text">Week1, Class1, 2025.2.19</span></a></li></ol>
     </div>
 </aside>
                 
