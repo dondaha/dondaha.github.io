@@ -6,7 +6,7 @@
   <link href="https://blog.dondaha.top/atom.xml" rel="self"/>
   
   <link href="https://blog.dondaha.top/"/>
-  <updated>2025-02-19T02:47:37.000Z</updated>
+  <updated>2025-02-20T03:22:06.198Z</updated>
   <id>https://blog.dondaha.top/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>AU3311现代控制理论（B类）-课堂笔记</title>
+    <link href="https://blog.dondaha.top/posts/au3311-notes/"/>
+    <id>https://blog.dondaha.top/posts/au3311-notes/</id>
+    <published>2025-02-20T02:03:06.000Z</published>
+    <updated>2025-02-20T03:22:06.198Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Week1-Class1-2025-2-20"><a href="#Week1-Class1-2025-2-20" class="headerlink" title="Week1, Class1, 2025.2.20"></a>Week1, Class1, 2025.2.20</h2><p>教材：</p><ul><li>施颂椒，陈学中，杜秀华. 《现代控制理论基础》，高等教育出版社，第二版<br>参考书：</li><li>张嗣瀛，高立群. 《现代控制理论》，清华大学出版社，第二版</li></ul><p>英文参考书：线性系统理论</p><p>课程主要内容（不严格按照课本内容讲述）：</p><ol><li>状态空间描述</li><li>线性系统的响应</li><li>Lyapunov稳定性</li><li>能控性和能观性</li><li>系统的实现</li><li>状态反馈与状态反馈器</li></ol><p>考核方式：</p><ul><li>平时作业（20%）迟交一周分数<em>0.8，迟交两周分数</em>0.8<em>0.8，期末前交</em>0.4，期末后计0分</li><li>课堂参与（10%）签了一次到就是满分</li><li>期末闭卷（70%）</li></ul><p>王召建老师：<a href="mailto:&#119;&#x61;&#110;&#103;&#122;&#104;&#97;&#x6f;&#x6a;&#105;&#97;&#110;&#x40;&#x73;&#106;&#116;&#117;&#46;&#x65;&#100;&#117;&#46;&#x63;&#110;">&#119;&#x61;&#110;&#103;&#122;&#104;&#97;&#x6f;&#x6a;&#105;&#97;&#110;&#x40;&#x73;&#106;&#116;&#117;&#46;&#x65;&#100;&#117;&#46;&#x63;&#110;</a><br>助教李明：<a href="mailto:&#108;&#x69;&#109;&#x69;&#110;&#103;&#48;&#50;&#49;&#x39;&#64;&#x73;&#x6a;&#116;&#x75;&#x2e;&#101;&#x64;&#x75;&#x2e;&#x63;&#110;">&#108;&#x69;&#109;&#x69;&#110;&#103;&#48;&#50;&#49;&#x39;&#64;&#x73;&#x6a;&#116;&#x75;&#x2e;&#101;&#x64;&#x75;&#x2e;&#x63;&#110;</a><br>交流时间：电院2-430，每周五下午，16:00-17:00，有问题可随时联系</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Week1-Class1-2025-2-20&quot;&gt;&lt;a href=&quot;#Week1-Class1-2025-2-20&quot; class=&quot;headerlink&quot; title=&quot;Week1, Class1, 2025.2.20&quot;&gt;&lt;/a&gt;Week1, Class1, 202</summary>
+      
+    
+    
+    
+    <category term="自动化课程" scheme="https://blog.dondaha.top/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%AF%BE%E7%A8%8B/"/>
+    
+    
+    <category term="课程笔记" scheme="https://blog.dondaha.top/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="自动化" scheme="https://blog.dondaha.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+    <category term="控制" scheme="https://blog.dondaha.top/tags/%E6%8E%A7%E5%88%B6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>AI3702过程控制系统-课堂笔记</title>
     <link href="https://blog.dondaha.top/posts/ai3702-notes/"/>
     <id>https://blog.dondaha.top/posts/ai3702-notes/</id>
     <published>2025-02-19T00:05:06.000Z</published>
-    <updated>2025-02-19T02:47:37.000Z</updated>
+    <updated>2025-02-19T08:24:19.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Week1-Class1-2025-2-19"><a href="#Week1-Class1-2025-2-19" class="headerlink" title="Week1, Class1, 2025.2.19"></a>Week1, Class1, 2025.2.19</h2><p>课程安排：<br><img src="https://notes.sjtu.edu.cn/uploads/upload_4ca6c375d5e72e22a45555bc16f91920.png"><br>分数组成：</p><ul><li>随堂测试+课后作业 20%</li><li>Project 30%<ul><li>子任务1：运动学 5分</li><li>子任务2：路径规划 10分</li><li>子任务3：定位与导航 15分</li><li>编程作业+答辩报告</li><li>3+人一组</li></ul></li><li>期末考试 50% 随堂考、笔试、闭卷</li></ul><p>对本课程的意见或建议（问卷匿名且长期有效）<a href="https://wj.sjtu.edu.cn/q/kcNJSB3z">https://wj.sjtu.edu.cn/q/kcNJSB3z</a><br>大作业环境配置云盘链接：<a href="https://jbox.sjtu.edu.cn/l/M1VEL8">https://jbox.sjtu.edu.cn/l/M1VEL8</a></p>]]></content>
     
@@ -79,7 +107,7 @@
     <published>2025-02-18T03:14:44.000Z</published>
     <updated>2025-02-19T02:47:37.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Week-1-Class-1-2025-2-18"><a href="#Week-1-Class-1-2025-2-18" class="headerlink" title="Week 1, Class 1, 2025.2.18"></a>Week 1, Class 1, 2025.2.18</h2><p>Lecture 1: Introduction to Computer Control Technology</p><p>朱善迎 <a href="mailto:&#115;&#104;&#121;&#122;&#104;&#x75;&#x40;&#x73;&#x6a;&#116;&#x75;&#46;&#101;&#100;&#117;&#46;&#99;&#110;">&#115;&#104;&#121;&#122;&#104;&#x75;&#x40;&#x73;&#x6a;&#116;&#x75;&#46;&#101;&#100;&#117;&#46;&#99;&#110;</a> 微信号s14528707</p><ul><li>Wang Shuling(王淑玲), PhD student<br>Wechat ID:  wsl17862707921<br>E-mail: <a href="mailto:&#115;&#x68;&#x75;&#108;&#105;&#110;&#103;&#119;&#x61;&#110;&#103;&#x32;&#48;&#x32;&#x31;&#x5f;&#115;&#x6a;&#x74;&#117;&#x40;&#x73;&#106;&#116;&#117;&#46;&#x65;&#x64;&#x75;&#46;&#99;&#110;">&#115;&#x68;&#x75;&#108;&#105;&#110;&#103;&#119;&#x61;&#110;&#103;&#x32;&#48;&#x32;&#x31;&#x5f;&#115;&#x6a;&#x74;&#117;&#x40;&#x73;&#106;&#116;&#117;&#46;&#x65;&#x64;&#x75;&#46;&#99;&#110;</a></li><li>Duan Mengmeng(段萌萌), PhD student<br>Wechat ID:  hhhoneybiubiu<br>E-mail: <a href="mailto:&#100;&#117;&#97;&#110;&#x5f;&#109;&#109;&#64;&#115;&#106;&#116;&#117;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#x6e;">&#100;&#117;&#97;&#110;&#x5f;&#109;&#109;&#64;&#115;&#106;&#116;&#117;&#46;&#x65;&#x64;&#x75;&#x2e;&#x63;&#x6e;</a></li></ul><p>课本：</p><ul><li>C. L. Phillips, H. T. Nagle, A. Chakrabortty, <strong>Digital Control System Analysisand Design</strong>, 4th ed. Boston: Pearson, 2015</li><li>Genke Yang, Jianying Xie, <strong>Micro-computer Control Technology</strong>, 4th ed. Changsha:National Defense Industry Press, 2016 (in Chinese)</li></ul><p>分数组成：</p><ul><li>20% homework assignments</li><li>10% group project（3人）</li><li>10% attendance &amp; pop-up quizzes</li><li>60% final exam</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="Week-1-Class-1-2025-2-18"><a href="#Week-1-Class-1-2025-2-18" class="headerlink" title="Week 1, Class 1, 2025.2.18"></a>Week 1, Class 1, 2025.2.18</h2><p>Lecture 1: Introduction to Computer Control Technology</p><p>朱善迎 <a href="mailto:&#115;&#x68;&#x79;&#122;&#x68;&#117;&#64;&#115;&#106;&#116;&#x75;&#46;&#101;&#100;&#x75;&#x2e;&#x63;&#x6e;">&#115;&#x68;&#x79;&#122;&#x68;&#117;&#64;&#115;&#106;&#116;&#x75;&#46;&#101;&#100;&#x75;&#x2e;&#x63;&#x6e;</a> 微信号s14528707</p><ul><li>Wang Shuling(王淑玲), PhD student<br>Wechat ID:  wsl17862707921<br>E-mail: <a href="mailto:&#x73;&#104;&#117;&#108;&#x69;&#110;&#103;&#119;&#97;&#x6e;&#103;&#50;&#x30;&#x32;&#49;&#x5f;&#115;&#x6a;&#x74;&#117;&#64;&#115;&#106;&#x74;&#117;&#x2e;&#101;&#x64;&#117;&#x2e;&#99;&#110;">&#x73;&#104;&#117;&#108;&#x69;&#110;&#103;&#119;&#97;&#x6e;&#103;&#50;&#x30;&#x32;&#49;&#x5f;&#115;&#x6a;&#x74;&#117;&#64;&#115;&#106;&#x74;&#117;&#x2e;&#101;&#x64;&#117;&#x2e;&#99;&#110;</a></li><li>Duan Mengmeng(段萌萌), PhD student<br>Wechat ID:  hhhoneybiubiu<br>E-mail: <a href="mailto:&#100;&#117;&#97;&#110;&#x5f;&#x6d;&#x6d;&#64;&#115;&#106;&#116;&#117;&#x2e;&#101;&#x64;&#117;&#x2e;&#x63;&#x6e;">&#100;&#117;&#97;&#110;&#x5f;&#x6d;&#x6d;&#64;&#115;&#106;&#116;&#117;&#x2e;&#101;&#x64;&#117;&#x2e;&#x63;&#x6e;</a></li></ul><p>课本：</p><ul><li>C. L. Phillips, H. T. Nagle, A. Chakrabortty, <strong>Digital Control System Analysisand Design</strong>, 4th ed. Boston: Pearson, 2015</li><li>Genke Yang, Jianying Xie, <strong>Micro-computer Control Technology</strong>, 4th ed. Changsha:National Defense Industry Press, 2016 (in Chinese)</li></ul><p>分数组成：</p><ul><li>20% homework assignments</li><li>10% group project（3人）</li><li>10% attendance &amp; pop-up quizzes</li><li>60% final exam</li></ul>]]></content>
     
     
       
