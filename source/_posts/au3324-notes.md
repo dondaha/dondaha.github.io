@@ -16,3 +16,6 @@ cover: https://notes.sjtu.edu.cn/uploads/upload_f528537514485bb417eda59aeb9690cf
 教材：
 
 - 《运动控制系统》
+
+## Week 1, Class 2, 2025.2.21
+

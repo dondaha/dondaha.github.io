@@ -33,3 +33,12 @@ Lecture 1: Introduction to Computer Control Technology
 - 10% group project（3人）
 - 10% attendance & pop-up quizzes
 - 60% final exam
+
+## Week2, Class 2, 2025.2.25
+
+### 无反馈控制系统
+
+系统：$G_p(s)$
+控制器：$\frac{1}{G_p(s)}$
+
+特点：控制器可能无法实现、对干扰的敏感程度高，对系统参数的敏感程度高

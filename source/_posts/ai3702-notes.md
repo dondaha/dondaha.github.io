@@ -1,5 +1,5 @@
 ---
-title: AI3702过程控制系统-课堂笔记
+title: AI3702移动机器人-课堂笔记
 comments: true
 toc: true
 donate: true
@@ -26,3 +26,8 @@ cover: https://notes.sjtu.edu.cn/uploads/upload_f528537514485bb417eda59aeb9690cf
 
 对本课程的意见或建议（问卷匿名且长期有效）https://wj.sjtu.edu.cn/q/kcNJSB3z
 大作业环境配置云盘链接：https://jbox.sjtu.edu.cn/l/M1VEL8
+
+## Week1, Class2, 2025.2.21
+
+第二周周三携带电脑配置ros环境。
+
