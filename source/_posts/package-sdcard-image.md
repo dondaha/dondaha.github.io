@@ -4,6 +4,7 @@ title: 嵌入式Linux系统镜像制作（基于SD卡）
 date: 2025-02-28 15:15:49
 tags: [RK3588,硬件,嵌入式]
 categories: 嵌入式
+cover: https://notes.sjtu.edu.cn/uploads/upload_7d675c6e53588f2dad22ac0dbd774912.jpg
 ---
 
 最近在给客户做一个大屏展示的项目，需要单板机开机就大屏显示一个网页，但配置环境非常困难，因此选择了直接打包系统镜像烧录在sd卡中，将sd卡直接给到客户，本文记录一下在linux主机上对sd卡打包镜像的过程。
