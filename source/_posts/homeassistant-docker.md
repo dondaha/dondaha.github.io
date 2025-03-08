@@ -8,7 +8,7 @@ date: 2025-03-08 22:00:00
 author: dondaha
 categories: HA
 tags: [硬件, docker]
-cover: https://notes.sjtu.edu.cn/uploads/upload_8f4e53b29d25af148e89a9593324abca.png
+cover: https://notes.sjtu.edu.cn/uploads/upload_f4f66579b7c63741d5c5f2563e9dade9.png
 ---
 
 ## 第一步：创建配置文件目录
