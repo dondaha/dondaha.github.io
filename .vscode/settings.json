@@ -21,5 +21,8 @@
     "pasteImage.basePath": "${currentFileDir}/../images",
     "markdown.editor.filePaste.enabled": "never",
     "markdown.editor.filePaste.copyIntoWorkspace": "never",
-    "pasteImage.suffix": "aaa"
+    "pasteImage.suffix": "aaa",
+    "terminal.integrated.env.windows": {
+        "PATH": "${workspaceFolder}/node_modules/.bin;${env:PATH}"
+    }
 }
