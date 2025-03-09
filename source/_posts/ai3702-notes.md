@@ -31,3 +31,4 @@ cover: https://notes.sjtu.edu.cn/uploads/upload_f528537514485bb417eda59aeb9690cf
 
 第二周周三携带电脑配置ros环境。
 
+
