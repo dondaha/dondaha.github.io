@@ -30,8 +30,8 @@
 <meta property="article:published_time" content="2025-02-28T07:15:49.000Z">
 <meta property="article:modified_time" content="2025-02-28T08:33:59.000Z">
 <meta property="article:author" content="dondaha">
-<meta property="article:tag" content="硬件">
 <meta property="article:tag" content="RK3588">
+<meta property="article:tag" content="硬件">
 <meta property="article:tag" content="嵌入式">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://notes.sjtu.edu.cn/uploads/upload_d4886010ce3edf6d2731d62403e2b6b2.png">
@@ -221,7 +221,7 @@
                         <i class="fa fa-edit"></i> 
                         
                         
-                            978
+                            946
                         
                         字
                     </li>
@@ -240,16 +240,14 @@
 <p>2、树莓派SD卡</p>
 <p>3、读卡器</p>
 <h2 id="减小sd卡没有使用的空间"><a href="#减小sd卡没有使用的空间" class="headerlink" title="减小sd卡没有使用的空间"></a>减小sd卡没有使用的空间</h2><p>使用GParted将sd卡中最大的分区缩减，让空间尽可能小，这样打包出来的镜像也会小一些。</p>
-<p>先在右上角选择我们的sd卡，然后右键&#x2F;dev&#x2F;sdb1分区，选择resize&#x2F;move，将空间缩小一些。我的图片中是已经缩小过的。</p>
-<p><img src="https://notes.sjtu.edu.cn/uploads/upload_d4886010ce3edf6d2731d62403e2b6b2.png"></p>
+<p>先在右上角选择我们的sd卡，然后右键/dev/sdb1分区，选择resize/move，将空间缩小一些。我的图片中是已经缩小过的。</p>
+<p><img src="https://notes.sjtu.edu.cn/uploads/upload_d4886010ce3edf6d2731d62403e2b6b2.png" alt=""></p>
 <p>然后我们计算sd卡中存在数据的前半部分的大小，例如我的是：</p>
 <p>16.00 MiB + 9.87 GiB &lt; 10240MiB</p>
 <p>然后我们记住这个10240MiB，我们将在下一步使用。</p>
 <h2 id="开始备份"><a href="#开始备份" class="headerlink" title="开始备份"></a>开始备份</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">dd</span> <span class="keyword">if</span>=/dev/sdb of=sdcard.bin bs=1M count=10240 status=progress</span><br></pre></td></tr></table></figure>
-<p>输出：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">radxa@rock-5b-plus:~$ sudo dd if=/dev/sdb of=DeepOceanAdventure.bin bs=1M count=10240 status=progress</span><br><span class="line">[sudo] password for radxa: </span><br><span class="line">10735321088 bytes (11 GB, 10 GiB) copied, 142 s, 75.6 MB/s </span><br><span class="line">10240+0 records in</span><br><span class="line">10240+0 records out</span><br><span class="line">10737418240 bytes (11 GB, 10 GiB) copied, 142.688 s, 75.3 MB/s</span><br></pre></td></tr></table></figure>
-
-<p>这里的if是输入文件，我们的sd卡是&#x2F;dev&#x2F;sdb，of是输出文件，我们的输出文件是sdcard.bin，bs是每次读写的大小，count是读写的次数，status&#x3D;progress是显示进度。bs是每次复制的大小，这里设为1MiB，count设置为10240是因为我们只需要备份前10240MiB的数据。</p>
+<p>输出：<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">radxa@rock-5b-plus:~$ sudo dd if=/dev/sdb of=DeepOceanAdventure.bin bs=1M count=10240 status=progress</span><br><span class="line">[sudo] password for radxa: </span><br><span class="line">10735321088 bytes (11 GB, 10 GiB) copied, 142 s, 75.6 MB/s </span><br><span class="line">10240+0 records in</span><br><span class="line">10240+0 records out</span><br><span class="line">10737418240 bytes (11 GB, 10 GiB) copied, 142.688 s, 75.3 MB/s</span><br></pre></td></tr></table></figure></p>
+<p>这里的if是输入文件，我们的sd卡是/dev/sdb，of是输出文件，我们的输出文件是sdcard.bin，bs是每次读写的大小，count是读写的次数，status=progress是显示进度。bs是每次复制的大小，这里设为1MiB，count设置为10240是因为我们只需要备份前10240MiB的数据。</p>
 <p>随后我们就得到了一个sdcard.bin的文件，这个文件就是我们的sd卡的镜像。我们可以使用<a target="_blank" rel="noopener" href="https://etcher.balena.io/">BalenaEtcher</a>软件烧写这个镜像。</p>
 </div>
         </div>

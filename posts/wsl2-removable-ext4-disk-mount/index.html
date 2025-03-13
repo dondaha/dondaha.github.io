@@ -19,12 +19,12 @@
   
     <meta name="keywords" content="ext4, linux" />
   
-  <meta name="description" content="找到硬盘对应的ID在管理员powershell中输入： 1GET-CimInstance -query &quot;SELECT * from Win32_DiskDrive&quot;  得到如下内容： 1234DeviceID           Caption                              Partitions Size          Model-------">
+  <meta name="description" content="找到硬盘对应的ID在管理员powershell中输入： 1GET-CimInstance -query &quot;SELECT * from Win32_DiskDrive&quot; 得到如下内容： 1234DeviceID           Caption                              Partitions Size          Model--------">
 <meta property="og:type" content="article">
 <meta property="og:title" content="在windows上挂载ext4硬盘——使用WSL2">
 <meta property="og:url" content="https://blog.dondaha.top/posts/wsl2-removable-ext4-disk-mount/index.html">
 <meta property="og:site_name" content="dondaha&#39;s blog">
-<meta property="og:description" content="找到硬盘对应的ID在管理员powershell中输入： 1GET-CimInstance -query &quot;SELECT * from Win32_DiskDrive&quot;  得到如下内容： 1234DeviceID           Caption                              Partitions Size          Model-------">
+<meta property="og:description" content="找到硬盘对应的ID在管理员powershell中输入： 1GET-CimInstance -query &quot;SELECT * from Win32_DiskDrive&quot; 得到如下内容： 1234DeviceID           Caption                              Partitions Size          Model--------">
 <meta property="og:locale">
 <meta property="og:image" content="https://notes.sjtu.edu.cn/uploads/upload_3c51a596838f1138990b7e60cab36498.png">
 <meta property="article:published_time" content="2025-03-11T16:00:08.000Z">
@@ -220,7 +220,7 @@
                         <i class="fa fa-edit"></i> 
                         
                         
-                            1236
+                            1232
                         
                         字
                     </li>
@@ -240,20 +240,16 @@
             <hr />
             <div itemprop="articleBody"><h2 id="找到硬盘对应的ID"><a href="#找到硬盘对应的ID" class="headerlink" title="找到硬盘对应的ID"></a>找到硬盘对应的ID</h2><p>在管理员powershell中输入：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET-CimInstance -query &quot;SELECT * from Win32_DiskDrive&quot;</span><br></pre></td></tr></table></figure>
-
 <p>得到如下内容：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">DeviceID           Caption                              Partitions Size          Model</span><br><span class="line">--------           -------                              ---------- ----          -----</span><br><span class="line">\\.\PHYSICALDRIVE1 Realtek RTL9210B-CG SCSI Disk Device 3          1024203640320 Realtek RTL9210B-CG SCSI Disk Device</span><br><span class="line">\\.\PHYSICALDRIVE0 TOPMORE Libra                        4          2048407280640 TOPMORE Libra</span><br></pre></td></tr></table></figure>
-
 <p>这里的<code>\\.\PHYSICALDRIVE1</code>就是我们的移动硬盘。</p>
 <h2 id="挂载硬盘"><a href="#挂载硬盘" class="headerlink" title="挂载硬盘"></a>挂载硬盘</h2><p>首先进入我们的WSL2中，输入<code>lsblk</code>，出现如下：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">(base) ddh@LAPTOP-DDH:~$ lsblk</span><br><span class="line">NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS</span><br><span class="line">sda      8:0    0 388.6M  1 disk</span><br><span class="line">sdb      8:16   0     4G  0 disk [SWAP]</span><br><span class="line">sdc      8:32   0     1T  0 disk /snap</span><br><span class="line">                                 /mnt/wslg/distro</span><br><span class="line">                                 /</span><br><span class="line">sdd      8:48   0 953.9G  0 disk</span><br><span class="line">├─sdd1   8:49   0    16M  0 part</span><br><span class="line">├─sdd2   8:50   0   300M  0 part</span><br><span class="line">└─sdd3   8:51   0 953.5G  0 part /mnt/wsl/PHYSICALDRIVE1p3</span><br></pre></td></tr></table></figure>
-
 <p>这里的sdd就是我们的移动硬盘，接着在windows的管理员powershell里输入：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl --mount \\.\PHYSICALDRIVE1 --partition 3 --type ext4</span><br></pre></td></tr></table></figure>
-
 <p>注意这里的<code>\\.\PHYSICALDRIVE1</code>是我们刚才找到的硬盘ID，<code>--partition 3</code>是指我们要挂载的分区，对应刚才的sdd3。</p>
 <p>随后我们就能在wsl2的<code>/mnt/wsl/PHYSICALDRIVE1p3</code>下找到我们的硬盘了，甚至可以在win11的文件管理器中直接访问。</p>
-<p><img src="https://notes.sjtu.edu.cn/uploads/upload_3c51a596838f1138990b7e60cab36498.png"></p>
+<p><img src="https://notes.sjtu.edu.cn/uploads/upload_3c51a596838f1138990b7e60cab36498.png" alt=""></p>
 </div>
         </div>
         

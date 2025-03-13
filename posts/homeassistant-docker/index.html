@@ -19,12 +19,12 @@
   
     <meta name="keywords" content="docker, 硬件" />
   
-  <meta name="description" content="第一步：创建配置文件目录在安装 Home Assistant 之前，我们需要创建一个用于存放 Home Assistant 配置文件的目录。这个目录将映射到 Docker 容器中的 &#x2F;config 目录。 打开文件资源管理器。在 D: 盘创建一个名为 cache 的文件夹（如果不存在）。在 cache 文件夹中创建一个名为 home-assistant-config 的文件夹。最终的目录">
+  <meta name="description" content="第一步：创建配置文件目录在安装 Home Assistant 之前，我们需要创建一个用于存放 Home Assistant 配置文件的目录。这个目录将映射到 Docker 容器中的 &#x2F;config 目录。 打开文件资源管理器。在 D: 盘创建一个名为 cache 的文件夹（如果不存在）。在 cache 文件夹中创建一个名为 home-assistant-config 的文件夹。最终的目录路径应该是">
 <meta property="og:type" content="article">
 <meta property="og:title" content="在windows下用docker安装homeassistant">
 <meta property="og:url" content="https://blog.dondaha.top/posts/homeassistant-docker/index.html">
 <meta property="og:site_name" content="dondaha&#39;s blog">
-<meta property="og:description" content="第一步：创建配置文件目录在安装 Home Assistant 之前，我们需要创建一个用于存放 Home Assistant 配置文件的目录。这个目录将映射到 Docker 容器中的 &#x2F;config 目录。 打开文件资源管理器。在 D: 盘创建一个名为 cache 的文件夹（如果不存在）。在 cache 文件夹中创建一个名为 home-assistant-config 的文件夹。最终的目录">
+<meta property="og:description" content="第一步：创建配置文件目录在安装 Home Assistant 之前，我们需要创建一个用于存放 Home Assistant 配置文件的目录。这个目录将映射到 Docker 容器中的 &#x2F;config 目录。 打开文件资源管理器。在 D: 盘创建一个名为 cache 的文件夹（如果不存在）。在 cache 文件夹中创建一个名为 home-assistant-config 的文件夹。最终的目录路径应该是">
 <meta property="og:locale">
 <meta property="article:published_time" content="2025-03-08T14:00:00.000Z">
 <meta property="article:modified_time" content="2025-03-08T14:25:48.000Z">
@@ -218,7 +218,7 @@
                         <i class="fa fa-edit"></i> 
                         
                         
-                            1079
+                            1048
                         
                         字
                     </li>
@@ -236,18 +236,17 @@
                 </div>
             
             <hr />
-            <div itemprop="articleBody"><h2 id="第一步：创建配置文件目录"><a href="#第一步：创建配置文件目录" class="headerlink" title="第一步：创建配置文件目录"></a>第一步：创建配置文件目录</h2><p>在安装 Home Assistant 之前，我们需要创建一个用于存放 Home Assistant 配置文件的目录。这个目录将映射到 Docker 容器中的 &#x2F;config 目录。</p>
-<p>打开文件资源管理器。<br>在 D: 盘创建一个名为 cache 的文件夹（如果不存在）。<br>在 cache 文件夹中创建一个名为 home-assistant-config 的文件夹。<br>最终的目录路径应该是：D:&#x2F;cache&#x2F;home-assistant-config</p>
+            <div itemprop="articleBody"><h2 id="第一步：创建配置文件目录"><a href="#第一步：创建配置文件目录" class="headerlink" title="第一步：创建配置文件目录"></a>第一步：创建配置文件目录</h2><p>在安装 Home Assistant 之前，我们需要创建一个用于存放 Home Assistant 配置文件的目录。这个目录将映射到 Docker 容器中的 /config 目录。</p>
+<p>打开文件资源管理器。<br>在 D: 盘创建一个名为 cache 的文件夹（如果不存在）。<br>在 cache 文件夹中创建一个名为 home-assistant-config 的文件夹。<br>最终的目录路径应该是：D:/cache/home-assistant-config</p>
 <h2 id="使用镜像站安装"><a href="#使用镜像站安装" class="headerlink" title="使用镜像站安装"></a>使用镜像站安装</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d --name home-assistant --restart unless-stopped -p 8123:8123 -v D:/cache/home-assistant-config:/config docker.1ms.run/homeassistant/home-assistant:latest</span><br></pre></td></tr></table></figure>
-
 <p>命令详解：</p>
 <ul>
 <li>-d: 让容器以守护进程（后台）模式运行，这样你可以关闭终端而不影响容器的运行。</li>
-<li>–name home-assistant: 指定容器的名称为 home-assistant，这使得管理容器时更加方便。</li>
-<li>–restart unless-stopped: 配置容器在 Docker 重启时自动启动，除非你手动停止它。</li>
-<li>-p 8123:8123: 将容器的内部端口 8123 映射到主机的 8123 端口。这样你可以通过浏览器访问 <a target="_blank" rel="noopener" href="http://localhost:8123/">http://localhost:8123</a> 来使用 Home Assistant。</li>
-<li>-v D:\cache\home-assistant-config:&#x2F;config: 将 Windows 的 D:\cache\home-assistant-config 目录映射到容器内的 &#x2F;config 目录，Home Assistant 将在这个目录中存储配置文件。</li>
-<li>homeassistant&#x2F;home-assistant:latest: 使用 Home Assistant 的最新 Docker 镜像来创建容器。</li>
+<li>—name home-assistant: 指定容器的名称为 home-assistant，这使得管理容器时更加方便。</li>
+<li>—restart unless-stopped: 配置容器在 Docker 重启时自动启动，除非你手动停止它。</li>
+<li>-p 8123:8123: 将容器的内部端口 8123 映射到主机的 8123 端口。这样你可以通过浏览器访问 <a target="_blank" rel="noopener" href="http://localhost:8123">http://localhost:8123</a> 来使用 Home Assistant。</li>
+<li>-v D:\cache\home-assistant-config:/config: 将 Windows 的 D:\cache\home-assistant-config 目录映射到容器内的 /config 目录，Home Assistant 将在这个目录中存储配置文件。</li>
+<li>homeassistant/home-assistant:latest: 使用 Home Assistant 的最新 Docker 镜像来创建容器。</li>
 </ul>
 <h2 id="访问-Home-Assistant"><a href="#访问-Home-Assistant" class="headerlink" title="访问 Home Assistant"></a>访问 Home Assistant</h2><p>在 Docker 容器成功启动后，你可以通过浏览器访问 Home Assistant 的 Web 界面。</p>
 <p>打开你的浏览器（如 Chrome、Edge）。<br>在地址栏中输入 <a href="http://localhost:8123。">http://localhost:8123。</a><br>你将看到 Home Assistant 的欢迎界面。按照页面上的提示，完成初始设置。</p>
