@@ -8,6 +8,7 @@ date: 2025-02-18 11:14:44
 categories: 自动化课程
 tags: [课程笔记,自动化,控制]
 cover: https://notes.sjtu.edu.cn/uploads/upload_f528537514485bb417eda59aeb9690cf.png
+mathjax: true
 ---
 
 ## Week 1, Class 1, 2025.2.18
@@ -15,6 +16,7 @@ cover: https://notes.sjtu.edu.cn/uploads/upload_f528537514485bb417eda59aeb9690cf
 Lecture 1: Introduction to Computer Control Technology
 
 朱善迎 shyzhu@sjtu.edu.cn 微信号s14528707
+
 - Wang Shuling(王淑玲), PhD student
   Wechat ID:  wsl17862707921
   E-mail: shulingwang2021_sjtu@sjtu.edu.cn
@@ -42,3 +44,19 @@ Lecture 1: Introduction to Computer Control Technology
 控制器：$\frac{1}{G_p(s)}$
 
 特点：控制器可能无法实现、对干扰的敏感程度高，对系统参数的敏感程度高
+
+## 2025.3.29
+
+markdown公式测试：
+
+$$
+a_0 = b_0+c_0
+$$
+
+$$
+\begin{equation}
+\begin{aligned}
+x+1=0
+\end{aligned}
+\end{equation}
+$$

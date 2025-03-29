@@ -127,6 +127,11 @@ visit_count:
     index: ""
     post: ""
 
+# MathJax
+# mathjax:
+#   enable: false
+#   per_page: false
+
 ################## 额外的注入代码 ##################
 additional_injections:
   head: |

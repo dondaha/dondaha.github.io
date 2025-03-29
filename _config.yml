@@ -127,3 +127,8 @@ deploy:
   type: 'git'
   repo: git@github.com:dondaha/dondaha.github.io.git
   branch: gh-pages
+
+# MathJax
+# mathjax:
+#   enable: false
+#   per_page: false
