@@ -6,7 +6,7 @@
   <link href="https://blog.dondaha.top/atom.xml" rel="self"/>
   
   <link href="https://blog.dondaha.top/"/>
-  <updated>2025-03-29T09:01:03.713Z</updated>
+  <updated>2025-03-29T09:03:40.897Z</updated>
   <id>https://blog.dondaha.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.dondaha.top/posts/ros-robotics-learning/"/>
     <id>https://blog.dondaha.top/posts/ros-robotics-learning/</id>
     <published>2025-03-18T17:21:27.000Z</published>
-    <updated>2025-03-29T09:01:03.713Z</updated>
+    <updated>2025-03-29T09:03:40.897Z</updated>
     
     <content type="html"><![CDATA[<h2 id="快捷导航">快捷导航</h2><p>ROS官方urdf教程：http://wiki.ros.org/urdf/Tutorials</p><h2 id="常用指令">常用指令</h2><h2 id="tf部分">tf部分</h2><h3 id="发布static-transform">发布static transform</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">rosrun tf2_ros static_transform_publisher x y z yaw pitch roll frame_id child_frame_id</span><br><span class="line">rosrun tf2_ros static_transform_publisher x y z qx qy qz qw frame_id child_frame_id</span><br></pre></td></tr></table></figure><p>例如：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rosrun tf2_ros static_transform_publisher 0 0 0 0 1 0 world a1</span><br></pre></td></tr></table></figure><p>可以看到：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ddh@LAPTOP-DDH:~/catkin_ws$ rostopic list</span><br><span class="line">/rosout</span><br><span class="line">/rosout_agg</span><br><span class="line">/tf_static</span><br></pre></td></tr></table></figure><p>以及：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">ddh@LAPTOP-DDH:~/catkin_ws$ rostopic <span class="built_in">echo</span> /tf_static</span><br><span class="line">transforms: </span><br><span class="line">  - </span><br><span class="line">    header: </span><br><span class="line">      <span class="built_in">seq</span>: 0</span><br><span class="line">      stamp: </span><br><span class="line">        secs: 1742455016</span><br><span class="line">        nsecs: 768368367</span><br><span class="line">      frame_id: <span class="string">&quot;world&quot;</span></span><br><span class="line">    child_frame_id: <span class="string">&quot;a1&quot;</span></span><br><span class="line">    transform: </span><br><span class="line">      translation: </span><br><span class="line">        x: 0.0</span><br><span class="line">        y: 0.0</span><br><span class="line">        z: 0.0</span><br><span class="line">      rotation: </span><br><span class="line">        x: 0.0</span><br><span class="line">        y: 0.479425538604</span><br><span class="line">        z: 0.0</span><br><span class="line">        w: 0.87758256189</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>使用launch文件发布的方式： <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">launch</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">node</span> <span class="attr">pkg</span>=<span class="string">&quot;tf2_ros&quot;</span> <span class="attr">type</span>=<span class="string">&quot;static_transform_publisher&quot;</span> <span class="attr">name</span>=<span class="string">&quot;link1_broadcaster&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">args</span>=<span class="string">&quot;1 0 0 0 0 0 1 link1_parent link1&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">launch</span>&gt;</span></span><br></pre></td></tr></table></figure></p><h3 id="section"></h3>]]></content>
     
@@ -150,9 +150,9 @@ href=&quot;https://askubuntu.com/questions/31786/chrome-asks-for-password-to-unl
     <category term="嵌入式" scheme="https://blog.dondaha.top/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
     
-    <category term="硬件" scheme="https://blog.dondaha.top/tags/%E7%A1%AC%E4%BB%B6/"/>
-    
     <category term="RK3588" scheme="https://blog.dondaha.top/tags/RK3588/"/>
+    
+    <category term="硬件" scheme="https://blog.dondaha.top/tags/%E7%A1%AC%E4%BB%B6/"/>
     
     <category term="嵌入式" scheme="https://blog.dondaha.top/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
@@ -259,36 +259,6 @@ href=&quot;https://askubuntu.com/questions/31786/chrome-asks-for-password-to-unl
   </entry>
   
   <entry>
-    <title>AI3702移动机器人-课堂笔记</title>
-    <link href="https://blog.dondaha.top/posts/ai3702-notes/"/>
-    <id>https://blog.dondaha.top/posts/ai3702-notes/</id>
-    <published>2025-02-19T00:05:06.000Z</published>
-    <updated>2025-03-09T15:24:17.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="week1-class1-2025.2.19">Week1, Class1, 2025.2.19</h2><p>课程安排： <imgsrc="https://notes.sjtu.edu.cn/uploads/upload_4ca6c375d5e72e22a45555bc16f91920.png" />分数组成： - 随堂测试+课后作业 20% - Project 30% - 子任务1：运动学 5分 -子任务2：路径规划 10分 - 子任务3：定位与导航 15分 - 编程作业+答辩报告 -3+人一组 - 期末考试 50% 随堂考、笔试、闭卷</p><p>对本课程的意见或建议（问卷匿名且长期有效）https://wj.sjtu.edu.cn/q/kcNJSB3z大作业环境配置云盘链接：https://jbox.sjtu.edu.cn/l/M1VEL8</p><h2 id="week1-class2-2025.2.21">Week1, Class2, 2025.2.21</h2><p>第二周周三携带电脑配置ros环境。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;week1-class1-2025.2.19&quot;&gt;Week1, Class1, 2025.2.19&lt;/h2&gt;
-&lt;p&gt;课程安排： &lt;img
-src=&quot;https://notes.sjtu.edu.cn/uploads/upload_4ca6c375d5e72e22</summary>
-      
-    
-    
-    
-    <category term="自动化课程" scheme="https://blog.dondaha.top/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%AF%BE%E7%A8%8B/"/>
-    
-    
-    <category term="课程笔记" scheme="https://blog.dondaha.top/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="自动化" scheme="https://blog.dondaha.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
-    
-    <category term="控制" scheme="https://blog.dondaha.top/tags/%E6%8E%A7%E5%88%B6/"/>
-    
-  </entry>
-  
-  <entry>
     <title>AU3308过程控制系统-课堂笔记</title>
     <link href="https://blog.dondaha.top/posts/au3308-notes/"/>
     <id>https://blog.dondaha.top/posts/au3308-notes/</id>
@@ -309,6 +279,36 @@ src=&quot;https://notes.sjtu.edu.cn/uploads/upload_4ca6c375d5e72e22</summary>
 &lt;li&gt;期末考试 60%&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p</summary>
+      
+    
+    
+    
+    <category term="自动化课程" scheme="https://blog.dondaha.top/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%AF%BE%E7%A8%8B/"/>
+    
+    
+    <category term="课程笔记" scheme="https://blog.dondaha.top/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="自动化" scheme="https://blog.dondaha.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+    <category term="控制" scheme="https://blog.dondaha.top/tags/%E6%8E%A7%E5%88%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AI3702移动机器人-课堂笔记</title>
+    <link href="https://blog.dondaha.top/posts/ai3702-notes/"/>
+    <id>https://blog.dondaha.top/posts/ai3702-notes/</id>
+    <published>2025-02-19T00:05:06.000Z</published>
+    <updated>2025-03-09T15:24:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="week1-class1-2025.2.19">Week1, Class1, 2025.2.19</h2><p>课程安排： <imgsrc="https://notes.sjtu.edu.cn/uploads/upload_4ca6c375d5e72e22a45555bc16f91920.png" />分数组成： - 随堂测试+课后作业 20% - Project 30% - 子任务1：运动学 5分 -子任务2：路径规划 10分 - 子任务3：定位与导航 15分 - 编程作业+答辩报告 -3+人一组 - 期末考试 50% 随堂考、笔试、闭卷</p><p>对本课程的意见或建议（问卷匿名且长期有效）https://wj.sjtu.edu.cn/q/kcNJSB3z大作业环境配置云盘链接：https://jbox.sjtu.edu.cn/l/M1VEL8</p><h2 id="week1-class2-2025.2.21">Week1, Class2, 2025.2.21</h2><p>第二周周三携带电脑配置ros环境。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;week1-class1-2025.2.19&quot;&gt;Week1, Class1, 2025.2.19&lt;/h2&gt;
+&lt;p&gt;课程安排： &lt;img
+src=&quot;https://notes.sjtu.edu.cn/uploads/upload_4ca6c375d5e72e22</summary>
       
     
     
