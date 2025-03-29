@@ -4,7 +4,7 @@ title: ROS1与机器人仿真学习
 date: 2025-03-19 01:21:27
 tags: [控制,机器人]
 categories: 机器人
-cover : https://notes.sjtu.edu.cn/uploads/upload_e58d24f3473a34c2b0b9fd0635cd6333.png
+cover : https://notes.sjtu.edu.cn/uploads/upload_5169ca592f8374921f5c3e7e40ea90e7.png
 ---
 
 ## 快捷导航
