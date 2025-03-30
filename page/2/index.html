@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+  <!-- 元数据 -->
+  <meta charset="utf-8">
+  
+    <link rel="icon" href="/assets/favicon.png">
+  
+  
+  <title>dondaha&#39;s blog</title>
+  <link rel="canonical" href="https://blog.dondaha.top/page/2/index.html">
+  <meta name="author" content="dondaha" />
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="robots" content="index,follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="format-detection" content="telphone=no, email=no" />
+  
+    <meta name="keywords" content="hexo,blog,dondaha,SJTU,kratos-rebirth" />
+  
+  <meta name="description" content="a SJTU-AUer的技术、生活的记录空间">
+<meta property="og:type" content="website">
+<meta property="og:title" content="dondaha&#39;s blog">
+<meta property="og:url" content="https://blog.dondaha.top/page/2/index.html">
+<meta property="og:site_name" content="dondaha&#39;s blog">
+<meta property="og:description" content="a SJTU-AUer的技术、生活的记录空间">
+<meta property="og:locale">
+<meta property="article:author" content="dondaha">
+<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="blog">
+<meta property="article:tag" content="dondaha">
+<meta property="article:tag" content="SJTU">
+<meta property="article:tag" content="kratos-rebirth">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="dondaha's blog" type="application/atom+xml">
+  
+  <!-- 样式表文件 -->
+  <link rel="stylesheet" id="kratos-css" href="/css/kr-core.min.css" media="all"></link>
+  
+    <link rel="stylesheet" id="highlight-css" href="/css/highlight/highlight.js/night-eighties.min.css" media="all"></link>
+  
+  <link rel="stylesheet" id="theme-light-css" href="/css/kr-theme/light.min.css" media="all"></link>
+  <link rel="stylesheet" id="theme-dark-css" href="/css/kr-theme/dark.min.css" media="(prefers-color-scheme: dark)"></link>
+  <script src="/js/kr-theme.min.js"></script>
+  <link rel="stylesheet" id="fontawe-css" href="/vendors/font-awesome@4.7.0/css/font-awesome.min.css" media="all"></link>
+  
+    <link rel="stylesheet" id="nprogress-css" href="/vendors/nprogress@0.2.0/nprogress.css" media="all"></link>
+  
+  
+    <link rel="stylesheet" href="/vendors/viewerjs@1.11.6/dist/viewer.min.css"></link>
+  
+  <!-- 不得不预先加载的一些JS文件 -->
+  
+    <script src="/vendors/qr-code-styling@1.6.0-rc.1/lib/qr-code-styling.js"></script>
+  
+  <!-- 自定义站点横幅和背景 -->
+  <style>
+    
+      .kratos-cover.kratos-cover-2 {
+        background-image: url('https://dev.krt.moe/demo-assets/banner.webp');
+      }
+      html[data-theme="dark"] .kratos-cover.kratos-cover-2 {
+        background-image: url('https://dev.krt.moe/demo-assets/banner_dark.webp');
+      }
+    
+    
+      @media(min-width:768px) {
+        body.custom-background {
+          background-image: url('https://dev.krt.moe/demo-assets/bg.webp');
+        }
+        html[data-theme="dark"] body.custom-background {
+          background-image: url('https://dev.krt.moe/demo-assets/bg.webp');
+        }
+      }
+    
+    
+      .widget-kratos-about .photo-background {
+        background-image: url('/images/default.webp');
+      }
+      html[data-theme="dark"] .widget-kratos-about .photo-background {
+        background-image: url('/images/default.webp');
+      }
+    
+  </style>
+
+  <!-- 额外的追加注入项 -->
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<link rel="stylesheet" href="/comments/gitalk.css" />
+
+  
+<meta name="generator" content="Hexo 7.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+
+    <body class="custom-background">
+        <div id="kratos-wrapper">
+    <div id="kratos-page">
+        <div id="kratos-header">
+            <header id="kratos-desktop-topnav" class="kratos-topnav">
+                <div class="container">
+                    <div class="nav-header">
+                        <nav id="kratos-menu-wrap">
+                            <ul id="kratos-primary-menu" class="sf-menu">
+                                
+                                    <li>
+                                        
+                                            <a href="/">
+                                        
+                                            
+                                                <i class="fa fa-home"></i>
+                                            
+                                            首页
+                                        </a>
+                                        
+                                    </li>
+                                
+                                    <li>
+                                        
+                                            <a href="/archives/">
+                                        
+                                            
+                                                <i class="fa fa-file"></i>
+                                            
+                                            档案馆
+                                        </a>
+                                        
+                                    </li>
+                                
+                                    <li>
+                                        
+                                            <a>
+                                        
+                                            
+                                                <i class="fa fa-link"></i>
+                                            
+                                            链接
+                                        </a>
+                                        
+                                            <ul class="sub-menu">
+                                                
+                                                    <li>
+                                                        <a target="_blank" rel="noopener" href="https://github.com/dondaha/dondaha.github.io">
+                                                            
+                                                                <i class="fa fa-code"></i>
+                                                            
+                                                            代码仓库
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <a target="_blank" rel="noopener" href="https://wiki.krt.moe">
+                                                            
+                                                                <i class="fa fa-book"></i>
+                                                            
+                                                            项目文档
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        
+                                    </li>
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <header id="kratos-mobile-topnav" class="kratos-topnav">
+                <div class="container">
+                    <div class="color-logo"><a href="/">dondaha&#39;s blog</a></div>
+                    <div id="kratos-nav-toggle-wrapper" class="nav-toggle">
+                        <a id="kratos-nav-toggle" class="kratos-nav-toggle">
+                            <i></i>
+                        </a>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="kratos-start kratos-hero-2">
+            <!-- <div class="kratos-overlay"></div> -->
+            <div class="kratos-cover kratos-cover-2 text-center">
+                <div class="desc desc2 animate-box">
+                    <a href="/">
+                        <h2>dondaha&#39;s blog</h2> <br />
+                        <span>dondaha的博客</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="kratos-blog-post">
+            <div class="container">
+                <div id="main" class="row">
+
+
+        
+
+            
+
+            <section class="kr-main-col col-md-8">
+
+        
+
+            <!-- Breadcrumb for tag & category page -->
+
+
+
+    
+    
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
+    <div class="kratos-entry-border clearfix">
+        
+        <div class="kratos-entry-post-main">
+            
+            
+                <div class="kratos-entry-thumb">
+                    <a href="/posts/au3308-notes/">
+                        <img class="kratos-entry-thumb-img" src="https://notes.sjtu.edu.cn/uploads/upload_f528537514485bb417eda59aeb9690cf.png" alt="/AU3308%E8%BF%87%E7%A8%8B%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F">
+                    </a>
+                </div>
+            
+            <div class="kratos-entry-post-inner">
+                <header class="kratos-entry-header">
+                        <a class="label-link" href="/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%AF%BE%E7%A8%8B/">自动化课程</a>
+                    <h2 class="kratos-entry-title"><a href="/posts/au3308-notes/" itemprop="mainEntityOfPage"><span itemprop="name headline">AU3308过程控制系统</span></a>
+                </header>
+                <div class="kratos-entry-content">
+                    <p itemProp="description">
+                        
+                            2025.2.19
+分数组成：
+
+课堂小测试 20%
+课堂参与度 10%
+课后作业 10%
+期末考试 60%
+
+考题分布：
+
+填空题（15分）
+选择题（可多选）12分
+计算题（10分）
+分析计算题（比计算题难...
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer class="kratos-entry-post-meta">
+            <span class="pull-left">
+                <time datetime="2025-02-19T00:05:06.000Z" itemprop="datePublished">
+                    <a><i class="fa fa-calendar"></i> 2025-02-19</a>
+                </time>
+                <a>
+                    
+                        <i class="fa fa-tags"></i>
+                        <a class="tag-none-link" href="/tags/%E6%8E%A7%E5%88%B6/" rel="tag">控制</a>, <a class="tag-none-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a>, <a class="tag-none-link" href="/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/" rel="tag">自动化</a>
+                    
+                </a>
+                
+                
+            </span>
+            <span class="pull-right">
+                <a class="read-more" href="/posts/au3308-notes/" title="阅读全文">阅读全文<i class="fa fa-chevron-circle-right"></i></a>
+            </span>
+        </footer>
+    </div>
+</article>
+    
+
+    
+    
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
+    <div class="kratos-entry-border clearfix">
+        
+        <div class="kratos-entry-post-main">
+            
+            
+                <div class="kratos-entry-thumb">
+                    <a href="/posts/au3310-notes/">
+                        <img class="kratos-entry-thumb-img" src="https://notes.sjtu.edu.cn/uploads/upload_f528537514485bb417eda59aeb9690cf.png" alt="/AU3310%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8E%A7%E5%88%B6%E6%8A%80%E6%9C%AF">
+                    </a>
+                </div>
+            
+            <div class="kratos-entry-post-inner">
+                <header class="kratos-entry-header">
+                        <a class="label-link" href="/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%AF%BE%E7%A8%8B/">自动化课程</a>
+                    <h2 class="kratos-entry-title"><a href="/posts/au3310-notes/" itemprop="mainEntityOfPage"><span itemprop="name headline">AU3310计算机控制技术</span></a>
+                </header>
+                <div class="kratos-entry-content">
+                    <p itemProp="description">
+                        
+                            Lecture
+1: Introduction to Computer Control Technology
+课程介绍
+
+Week 1, Class 1, 2025.2.18
+
+Lecture 1: Introductio...
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer class="kratos-entry-post-meta">
+            <span class="pull-left">
+                <time datetime="2025-02-18T03:14:44.000Z" itemprop="datePublished">
+                    <a><i class="fa fa-calendar"></i> 2025-02-18</a>
+                </time>
+                <a>
+                    
+                        <i class="fa fa-tags"></i>
+                        <a class="tag-none-link" href="/tags/%E6%8E%A7%E5%88%B6/" rel="tag">控制</a>, <a class="tag-none-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a>, <a class="tag-none-link" href="/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/" rel="tag">自动化</a>
+                    
+                </a>
+                
+                
+            </span>
+            <span class="pull-right">
+                <a class="read-more" href="/posts/au3310-notes/" title="阅读全文">阅读全文<i class="fa fa-chevron-circle-right"></i></a>
+            </span>
+        </footer>
+    </div>
+</article>
+    
+
+    
+    
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
+    <div class="kratos-entry-border clearfix">
+        
+        <div class="kratos-entry-post-main">
+            
+            
+                <div class="kratos-entry-thumb">
+                    <a href="/posts/au3324-notes/">
+                        <img class="kratos-entry-thumb-img" src="https://notes.sjtu.edu.cn/uploads/upload_f528537514485bb417eda59aeb9690cf.png" alt="/AU3324%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F">
+                    </a>
+                </div>
+            
+            <div class="kratos-entry-post-inner">
+                <header class="kratos-entry-header">
+                        <a class="label-link" href="/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%AF%BE%E7%A8%8B/">自动化课程</a>
+                    <h2 class="kratos-entry-title"><a href="/posts/au3324-notes/" itemprop="mainEntityOfPage"><span itemprop="name headline">AU3324运动控制系统</span></a>
+                </header>
+                <div class="kratos-entry-content">
+                    <p itemProp="description">
+                        
+                            Week 1, Class 1, 2025.2.18
+教材：
+
+《运动控制系统》
+
+Week 1, Class 2, 2025.2.21
+
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer class="kratos-entry-post-meta">
+            <span class="pull-left">
+                <time datetime="2025-02-18T03:14:44.000Z" itemprop="datePublished">
+                    <a><i class="fa fa-calendar"></i> 2025-02-18</a>
+                </time>
+                <a>
+                    
+                        <i class="fa fa-tags"></i>
+                        <a class="tag-none-link" href="/tags/%E6%8E%A7%E5%88%B6/" rel="tag">控制</a>, <a class="tag-none-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a>, <a class="tag-none-link" href="/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/" rel="tag">自动化</a>
+                    
+                </a>
+                
+                
+            </span>
+            <span class="pull-right">
+                <a class="read-more" href="/posts/au3324-notes/" title="阅读全文">阅读全文<i class="fa fa-chevron-circle-right"></i></a>
+            </span>
+        </footer>
+    </div>
+</article>
+    
+
+    
+    
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
+    <div class="kratos-entry-border clearfix">
+        
+        <div class="kratos-entry-post-main">
+            
+            
+                <div class="kratos-entry-thumb">
+                    <a href="/posts/yolo-error-with-cuda/">
+                        <img class="kratos-entry-thumb-img" src="https://notes.sjtu.edu.cn/uploads/upload_941ec415377bbf2b1f7f2ee0ea02c41d.png" alt="/yolo%E6%8A%A5%E9%94%99'torchvision::nms'%20is%20only%20available%20for%20these%20backends">
+                    </a>
+                </div>
+            
+            <div class="kratos-entry-post-inner">
+                <header class="kratos-entry-header">
+                        <a class="label-link" href="/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/">深度学习</a>
+                    <h2 class="kratos-entry-title"><a href="/posts/yolo-error-with-cuda/" itemprop="mainEntityOfPage"><span itemprop="name headline">yolo报错'torchvision::nms' is only available for these backends</span></a>
+                </header>
+                <div class="kratos-entry-content">
+                    <p itemProp="description">
+                        
+                            我的环境
+12345678910111213(yolov11) PS F:\Program-NEW\Python\projects\AU3302\HW1&gt; nvidia-smiSun Dec  8 15:21:08 2024 ...
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer class="kratos-entry-post-meta">
+            <span class="pull-left">
+                <time datetime="2024-12-08T07:13:11.000Z" itemprop="datePublished">
+                    <a><i class="fa fa-calendar"></i> 2024-12-08</a>
+                </time>
+                <a>
+                    
+                        <i class="fa fa-tags"></i>
+                        <a class="tag-none-link" href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" rel="tag">深度学习</a>, <a class="tag-none-link" href="/tags/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B/" rel="tag">目标检测</a>, <a class="tag-none-link" href="/tags/%E7%BC%96%E7%A8%8B/" rel="tag">编程</a>
+                    
+                </a>
+                
+                
+            </span>
+            <span class="pull-right">
+                <a class="read-more" href="/posts/yolo-error-with-cuda/" title="阅读全文">阅读全文<i class="fa fa-chevron-circle-right"></i></a>
+            </span>
+        </footer>
+    </div>
+</article>
+    
+
+    
+    
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
+    <div class="kratos-entry-border clearfix">
+        
+        <div class="kratos-entry-post-main">
+            
+            
+                <div class="kratos-entry-thumb">
+                    <a href="/posts/pio-stm32-daplink/">
+                        <img class="kratos-entry-thumb-img" src="https://notes.sjtu.edu.cn/uploads/upload_50c675fdea9c6e8fa301f61e67fc7c4a.png" alt="/%E5%9C%A8PlatformIO%E4%B8%AD%E7%BC%96%E7%A8%8BSTM32%E6%97%B6%E4%BD%BF%E7%94%A8DAPLink">
+                    </a>
+                </div>
+            
+            <div class="kratos-entry-post-inner">
+                <header class="kratos-entry-header">
+                        
+                    <h2 class="kratos-entry-title"><a href="/posts/pio-stm32-daplink/" itemprop="mainEntityOfPage"><span itemprop="name headline">在PlatformIO中编程STM32时使用DAPLink</span></a>
+                </header>
+                <div class="kratos-entry-content">
+                    <p itemProp="description">
+                        
+                            在PlatformIO中编程STM32时使用DAPLink
+修改platformio.ini文件
+12345[env:genericSTM32F103C8]platform &#x3D; ststm32board &#x3D; genericSTM3...
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer class="kratos-entry-post-meta">
+            <span class="pull-left">
+                <time datetime="2024-12-05T07:19:21.000Z" itemprop="datePublished">
+                    <a><i class="fa fa-calendar"></i> 2024-12-05</a>
+                </time>
+                <a>
+                    
+                </a>
+                
+                
+            </span>
+            <span class="pull-right">
+                <a class="read-more" href="/posts/pio-stm32-daplink/" title="阅读全文">阅读全文<i class="fa fa-chevron-circle-right"></i></a>
+            </span>
+        </footer>
+    </div>
+</article>
+    
+
+    
+    
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
+    <div class="kratos-entry-border clearfix">
+        
+        <div class="kratos-entry-post-main">
+            
+            
+                <div class="kratos-entry-thumb">
+                    <a href="/posts/my-itx-pc/">
+                        <img class="kratos-entry-thumb-img" src="https://s2.loli.net/2024/12/02/E6xlmYDCRdBohLW.jpg" alt="/%E7%AC%AC%E4%B8%80%E5%8F%B0itx%E4%B8%BB%E6%9C%BA">
+                    </a>
+                </div>
+            
+            <div class="kratos-entry-post-inner">
+                <header class="kratos-entry-header">
+                        <a class="label-link" href="/categories/%E7%A1%AC%E4%BB%B6/">硬件</a>
+                    <h2 class="kratos-entry-title"><a href="/posts/my-itx-pc/" itemprop="mainEntityOfPage"><span itemprop="name headline">第一台itx主机</span></a>
+                </header>
+                <div class="kratos-entry-content">
+                    <p itemProp="description">
+                        
+                            在前面
+一直有组装一台itx主机的想法，但因无处安放+有主力机的原因，一直没有实施。直到最近，导师在实验室给我安排了一个工位，看着空空如也的工位就诞生了装一台以美观为主的itx二奶机放在工位的想法。
+配置选择
+考虑到性价比和功耗...
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer class="kratos-entry-post-meta">
+            <span class="pull-left">
+                <time datetime="2024-11-22T08:30:50.000Z" itemprop="datePublished">
+                    <a><i class="fa fa-calendar"></i> 2024-11-22</a>
+                </time>
+                <a>
+                    
+                        <i class="fa fa-tags"></i>
+                        <a class="tag-none-link" href="/tags/%E7%A1%AC%E4%BB%B6/" rel="tag">硬件</a>, <a class="tag-none-link" href="/tags/%E8%A3%85%E6%9C%BA/" rel="tag">装机</a>
+                    
+                </a>
+                
+                
+            </span>
+            <span class="pull-right">
+                <a class="read-more" href="/posts/my-itx-pc/" title="阅读全文">阅读全文<i class="fa fa-chevron-circle-right"></i></a>
+            </span>
+        </footer>
+    </div>
+</article>
+    
+
+
+
+    <div class='text-center pagination'>
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    </div>
+
+
+
+
+
+
+        
+
+            </section>
+
+            
+                
+
+<section id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm">
+    <!-- 文章和页面根据splitter来分割，没有的话就从头开始设置为sticky -->
+    
+        <div class="sticky-area">
+    
+    
+                <aside id="krw-about" class="widget widget-kratos-about clearfix">
+    <div class="photo-background"></div>
+    <div class="photo-wrapper clearfix">
+        <div class="photo-wrapper-tip text-center">
+            <img class="about-photo" src="/assets/logo.jpg" alt="dondaha" loading="lazy" decoding="auto" />
+        </div>
+    </div>
+    <div class="textwidget">
+        <p class="text-center">a SJTU-AUer的技术、生活的记录空间</p>
+    </div>
+    <div class="site-meta">
+        <a class="meta-item" href="/archives/">
+            <span class="title">
+                文章
+            </span>
+            <span class="count">
+                16
+            </span>
+        </a>
+        <a class="meta-item" href="/categories/">
+            <span class="title">
+                分类
+            </span>
+            <span class="count">
+                8
+            </span>
+        </a>
+        <a class="meta-item" href="/tags/">
+            <span class="title">
+                标签
+            </span>
+            <span class="count">
+                15
+            </span>
+        </a>
+    </div>
+</aside>
+            
+                
+  <aside id="krw-categories" class="widget widget-kratos-categories clearfix">
+    <h4 class="widget-title"><i class="fa fa-folder"></i>分类列表</h4>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/HA/">HA</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Linux/">Linux</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/">嵌入式</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%B0%E5%AD%A6/">数学</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%9C%BA%E5%99%A8%E4%BA%BA/">机器人</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/">深度学习</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A1%AC%E4%BB%B6/">硬件</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%AF%BE%E7%A8%8B/">自动化课程</a><span class="category-list-count">7</span></li></ul>
+  </aside>
+
+
+            
+                
+  <aside id="krw-tags" class="widget widget-kratos-tags clearfix">
+    <h4 class="widget-title"><i class="fa fa-tags"></i>标签聚合</h4>
+      <div class="tag-clouds">
+        <a href="/tags/RK3588/" style="font-size: 0.6em;">RK3588</a> <a href="/tags/debug/" style="font-size: 0.6em;">debug</a> <a href="/tags/docker/" style="font-size: 0.6em;">docker</a> <a href="/tags/ext4/" style="font-size: 0.6em;">ext4</a> <a href="/tags/linux/" style="font-size: 0.6em;">linux</a> <a href="/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/" style="font-size: 0.6em;">嵌入式</a> <a href="/tags/%E6%8E%A7%E5%88%B6/" style="font-size: 0.8em;">控制</a> <a href="/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/" style="font-size: 0.6em;">机器人</a> <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" style="font-size: 0.6em;">深度学习</a> <a href="/tags/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B/" style="font-size: 0.6em;">目标检测</a> <a href="/tags/%E7%A1%AC%E4%BB%B6/" style="font-size: 0.67em;">硬件</a> <a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 0.73em;">笔记</a> <a href="/tags/%E7%BC%96%E7%A8%8B/" style="font-size: 0.6em;">编程</a> <a href="/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/" style="font-size: 0.73em;">自动化</a> <a href="/tags/%E8%A3%85%E6%9C%BA/" style="font-size: 0.6em;">装机</a>
+      </div>
+  </aside>
+
+            
+                
+  <aside id="krw-posts" class="widget widget-kratos-posts">
+  <h4 class="widget-title"><i class="fa fa-file"></i>最新文章</h4>
+  <div class="tab-content">
+      <ul class="list-group">
+        
+        
+          
+          
+            <a class="list-group-item" href="/posts/laplace-transform-table/"><i class="fa fa-book"></i> 常见函数Laplace变换表</a>
+            
+          
+        
+          
+          
+            <a class="list-group-item" href="/posts/ros-robotics-learning/"><i class="fa fa-book"></i> ROS1与机器人仿真学习</a>
+            
+          
+        
+          
+          
+            <a class="list-group-item" href="/posts/wsl2-removable-ext4-disk-mount/"><i class="fa fa-book"></i> 在windows上挂载ext4硬盘——使用WSL2</a>
+            
+          
+        
+          
+          
+            <a class="list-group-item" href="/posts/commandline-chrome-choose-password-for-new-keyring/"><i class="fa fa-book"></i> 命令行启动Chrome出现"Choose password for new keyring"的解决方法</a>
+            
+          
+        
+          
+          
+            <a class="list-group-item" href="/posts/homeassistant-docker/"><i class="fa fa-book"></i> 在windows下用docker安装homeassistant</a>
+            
+          
+        
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+      </ul>
+  </div>
+  </aside>
+
+            
+    </div>
+</section>
+            
+
+        
+
+                </div>
+    </div>
+</div>
+
+<footer>
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 footer-list text-center">
+                    <ul class="kratos-social-icons">
+                        
+                            <li>
+                                <a href="https://github.com/dondaha" target="_blank" rel="nofollow">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/atom.xml" target="_blank" rel="nofollow">
+                                    <i class="fa fa-rss"></i>
+                                </a>
+                            </li>
+                        
+                    </ul>
+                    <ul class="kratos-copyright">
+                        <div>
+                            <li>&copy; 2025 dondaha's blog 版权所有.</li>
+                            <li>本站已在风雨中飘摇<span id="kr-since">Loading...</span></li>
+                        </div>
+                        <div>
+                            <li>自豪地使用 <a href="https://github.com/Candinya/Kratos-Rebirth" target="_blank">Kratos:Rebirth</a> 主题</li>
+                            <li>站点由 <a href="https://github.com/dondaha" target="_blank">dondaha</a> 用 <i class="fa fa-heart" style="color:#d43f57"></i> 搭建</li>
+                        </div>
+                        <!-- 额外的追加注入项 -->
+                        
+                            <div>
+                                
+                                    <li>由 <a href="https://hexo.io" target="_blank" rel="nofollow">Hexo</a> 强力驱动</li>
+                                
+                                    <li>在 <a href="https://github.io" target="_blank">Github Pages</a> 暖心托管</li>
+                                
+                            </div>
+                        
+                            <div>
+                                
+                                    <li><a href="https://icp.gov.moe/?keyword=20245090" target="_blank">萌ICP备20245090号</a></li>
+                                
+                            </div>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="kr-tool text-center">
+            <div class="tool">
+                
+                    <div class="box search-box">
+                        <a href="/search">
+                            <span class="fa fa-search"></span>
+                        </a>
+                    </div>
+                
+                <div class="box theme-box" id="theme-toggle">
+                    <span class="fa fa-adjust"></span>
+                </div>
+            </div>
+            <div id="gotop-box" class="box gotop-box">
+                <span class="fa fa-chevron-up"></span>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+</div>
+
+
+    <div id="kr-donate-modal" class="kr-modal">
+    <div class="kr-modal-bg" onclick="krCloseDonateModal()"></div>
+    <div class="kr-modal-content">
+        <div class="kr-modal-header">
+            <div class="kr-modal-icon">
+                <i class="fa fa-bitcoin"></i>
+            </div>
+            <div class="kr-modal-title">赞助喵</div>
+            <button class="kr-modal-close" onclick="krCloseDonateModal()">
+                <i class="fa fa-times-circle"></i>
+            </button>
+        </div>
+        <div class="kr-modal-body">
+            <div class="kr-donate-message">非常感谢您的喜欢！ <i class="fa fa-heart" style="color:#d43f57"></i></div>
+            <div class="kr-donate-qr" id="kr-donate-qr">
+                
+                    <img class="kr-donate-placeholder" src="https://dev.krt.moe/demo-assets/donate.webp" alt="赞助喵" />
+                
+            </div>
+            <div class="kr-donate-platforms">
+                
+                    
+                        <button class="kr-donate-platform-button" style="color: #1677ff;" title="支付宝" onclick="krDonateModalShowPlatformQR('https://qr.alipay.com/fkx19199bakwsserrvtcpcd', '#1677ff')">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-alipay">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M19 3h-14a2 2 0 0 0 -2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2 -2v-14a2 2 0 0 0 -2 -2z" />
+  <path d="M7 7h10" />
+  <path d="M12 3v7" />
+  <path d="M21 17.314c-2.971 -1.923 -15 -8.779 -15 -1.864c0 1.716 1.52 2.55 2.985 2.55c3.512 0 6.814 -5.425 6.814 -8h-6.604" />
+</svg>
+
+                        </button>
+                    
+                
+                    
+                        <button class="kr-donate-platform-button" style="color: #38ad5a;" title="微信支付" onclick="krDonateModalShowPlatformQR('wxp://f2f0XcvF5l0F_O58t36tEvrLHMVq2B00DZpoIja0hdfc0r8cNeP_RwZetF7cqIXOSajE', '#38ad5a')">
+                            <i class="fa fa-wechat"></i>
+                        </button>
+                    
+                
+            </div>
+        </div>
+    </div>
+</div>
+<script defer src="/js/kr-modal/donate.min.js"></script>
+
+
+
+
+    <div id="kr-share-modal" class="kr-modal">
+    <div class="kr-modal-bg" onclick="krCloseShareModal()"></div>
+    <div class="kr-modal-content">
+        <div class="kr-modal-header">
+            <div class="kr-modal-icon">
+                <i class="fa fa-share-alt"></i>
+            </div>
+            <div class="kr-modal-title">分享这一刻</div>
+            <button class="kr-modal-close" onclick="krCloseShareModal()">
+                <i class="fa fa-times-circle"></i>
+            </button>
+        </div>
+        <div class="kr-modal-body">
+            <div class="kr-share-message">让朋友们也来瞅瞅！</div>
+            <div class="kr-share-qr" id="kr-share-qr"></div>
+            <div class="kr-share-platforms">
+                
+                    <button class="kr-share-platform-button" style="color: #62b6e7;" title="喵窝" onclick="krShareModalOpenPlatform('$URL')">
+                        <svg fill="currentColor" width="18" height="18" viewBox="0 0 329 388"><path d="M0,36.226c0,-19.993 16.233,-36.226 36.226,-36.226c13.788,0 25.787,7.719 31.908,19.068l188.366,229.845l0,-111.259c-6.356,5.508 -14.645,8.843 -23.707,8.843c-19.994,0 -36.226,-16.232 -36.226,-36.226c-0,-8.551 2.968,-16.413 7.93,-22.613l-0.015,-0.013l56.614,-69.08c6.2,-11.073 18.047,-18.565 31.63,-18.565c19.994,0 36.227,16.233 36.227,36.226l-0,314.644c-0,19.994 -16.233,36.226 -36.227,36.226c-13.166,0 -24.701,-7.039 -31.044,-17.555l-189.229,-230.899l-0,212.228c-0,19.994 -16.233,36.226 -36.227,36.226c-19.993,0 -36.226,-16.232 -36.226,-36.226l0,-314.644Z" /></svg>
+                    </button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<script defer src="/js/kr-modal/share.min.js"></script>
+
+
+
+<!-- 额外的追加注入项 -->
+
+
+        <script>
+    if (!window.kr) {
+        window.kr = {};
+    }
+    window.kr.notMobile = (!(navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)));
+    window.kr.siteRoot = "/";
+</script>
+
+
+  <script defer src="/vendors/nprogress@0.2.0/nprogress.js"></script>
+
+
+
+  <script defer src="/vendors/viewerjs@1.11.6/dist/viewer.min.js"></script>
+
+
+<script defer src="/js/kr-core.min.js"></script>
+
+
+  <script defer src="/js/kr-pjax.min.js"></script>
+
+
+<!-- 额外的追加注入项 -->
+
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script src="/comments/gitalk.js"></script>
+
+
+
+    </body>
+</html>
