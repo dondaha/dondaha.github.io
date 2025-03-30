@@ -11,7 +11,11 @@ cover: https://notes.sjtu.edu.cn/uploads/upload_f528537514485bb417eda59aeb9690cf
 mathjax: true
 ---
 
-## Week 1, Class 1, 2025.2.18
+## Lecture 1: Introduction to Computer Control Technology
+
+### 课程介绍
+
+> Week 1, Class 1, 2025.2.18
 
 Lecture 1: Introduction to Computer Control Technology
 
@@ -36,27 +40,27 @@ Lecture 1: Introduction to Computer Control Technology
 - 10% attendance & pop-up quizzes
 - 60% final exam
 
-## Week2, Class 2, 2025.2.25
-
 ### 无反馈控制系统
+
+> 2025.2.25
 
 系统：$G_p(s)$
 控制器：$\frac{1}{G_p(s)}$
 
 特点：控制器可能无法实现、对干扰的敏感程度高，对系统参数的敏感程度高
 
-## 2025.3.29
+## Lecture 2 Feedback Principles
 
-markdown公式测试：
+> 2025.03.29
 
-$$
-a_0 = b_0+c_0
-$$
+使用反馈控制系统的原因：
 
-$$
-\begin{equation}
-\begin{aligned}
-x+1=0
-\end{aligned}
-\end{equation}
-$$
+1. 实际中很难获得精确的系统数学模型
+2. 系统会有扰动
+  
+使用反馈的两大目的：
+
+1. 设定值跟踪（Servo Problem）
+2. 抗扰动能力（Regulation Problem）
+
+## Lecture 3 Sampling and Reconstruction
