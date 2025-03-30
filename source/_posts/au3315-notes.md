@@ -1,12 +1,12 @@
 ---
-title: AU3315倒立摆课程设计-课堂笔记
+title: AU3315倒立摆课程设计
 comments: true
 toc: true
 donate: true
 share: true
 date: 2025-02-20 14:03:16
 categories: 自动化课程
-tags: [课程笔记,自动化,控制]
+tags: [笔记,自动化,控制]
 cover: https://notes.sjtu.edu.cn/uploads/upload_f528537514485bb417eda59aeb9690cf.png
 ---
 

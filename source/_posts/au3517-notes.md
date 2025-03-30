@@ -1,12 +1,12 @@
 ---
-title: AU3517工程实践与科技创新Ⅳ-E-课堂笔记
+title: AU3517工程实践与科技创新Ⅳ-E
 comments: true
 toc: true
 donate: true
 share: true
 date: 2025-02-20 18:19:25
 categories: 自动化课程
-tags: [课程笔记,自动化,控制]
+tags: [笔记,自动化,控制]
 cover: https://notes.sjtu.edu.cn/uploads/upload_f528537514485bb417eda59aeb9690cf.png
 ---
 

@@ -1,12 +1,12 @@
 ---
-title: AI3702移动机器人-课堂笔记
+title: AI3702移动机器人
 comments: true
 toc: true
 donate: true
 share: true
 date: 2025-02-19 08:05:06
 categories: 自动化课程
-tags: [课程笔记,自动化,控制]
+tags: [笔记,自动化,控制]
 cover: https://notes.sjtu.edu.cn/uploads/upload_f528537514485bb417eda59aeb9690cf.png
 ---
 
